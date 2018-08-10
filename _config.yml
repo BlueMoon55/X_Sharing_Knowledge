@@ -1,0 +1,9 @@
+exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.bowerrc', '.gitignore', 'Gemfile', 'Gemfile.lock']
+title: Sharing Knowledge Public Site
+description: 「知の共有化」に関する資料提供サイト
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-architect
+gems:
+  - jekyll-redirect-from
+encoding: UTF-8
