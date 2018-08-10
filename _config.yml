@@ -1,5 +1,5 @@
 exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.bowerrc', '.gitignore', 'Gemfile', 'Gemfile.lock']
-title: Sharing Knowledge Repository
+title: Repository of Sharing Knowledge
 description: 「知の共有化」に関する資料アーカイブ
 show_downloads: false
 google_analytics:
