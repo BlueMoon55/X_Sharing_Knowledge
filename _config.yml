@@ -2,7 +2,7 @@ exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.b
 title: Repository of Sharing Knowledge
 description: 「知の共有化」に関する資料アーカイブ
 show_downloads: false
-google_analytics:
+google_analytics: UA-101084548-4
 theme: jekyll-theme-architect
 gems:
   - jekyll-redirect-from
