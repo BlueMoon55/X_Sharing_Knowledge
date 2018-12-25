@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="treestyles.css" type="text/css"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!--This file has been created with toxhtml.xsl--><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><title>Sec-01-02-20 中小企業の情報セキュリティ対策ガイドライン（第2.1版）</title><link rel="stylesheet" href="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/treestyles.css" type="text/css" /><script type="text/javascript" src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/marktree.js"> 
+	</script></head><body><div class="basetop"><a onclick="expandAll(document.getElementById('base'))" href="#">Expand</a> -
+<a onclick="collapseAll(document.getElementById('base'))" href="#">Collapse</a></div><div class="basetext" id="base"><ul>
+	<li class="col" id="FM1966mgg9dg51ugrh6que1cdg4vFM"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/icons/full-1.png" alt="full-1" /> <div class="nodecontent"><a href="https://bluemoon55.github.io/Sharing_Knowledge/Cyber_Security/Deliverables/mind2html/Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html">Sec-01-02-20 中小企業の情報セキュリティ対策ガイドライン（第2.1版）</a> <a href="https://bluemoon55.github.io/Sharing_Knowledge/Cyber_Security/Deliverables/mind2html/Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="col" id="FM3djuihkvucpcpkejgtf9070fbaFM"><div class="nodecontent">改版履歴</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6r868g2m3pkk05oquq62p57g4bFM"><div class="nodecontent">2018年12月25日　独立文書化</div></li>
+	<li class="basic" id="FM10qpgb2fvglpt3ikkvreinlt1kFM"><div class="nodecontent">【2017年5月10日IPA】</div></li></ul></li>
+	<li class="basic" id="FM3103t3dse4bahlogi1dio67ss8FM"><div class="nodecontent"><a href="http://www.ipa.go.jp/security/keihatsu/sme/guideline/">一式公開ページ</a> <a href="http://www.ipa.go.jp/security/keihatsu/sme/guideline/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li>
+	<li class="basic" id="FM0j3qr4i7hv459e9fk19d3d433sFM"><div class="nodecontent"><a href="http://www.ipa.go.jp/files/000055520.pdf">中小企業の情報セキュリティ対策ガイドライン（第2.1版）【本文】</a> <a href="http://www.ipa.go.jp/files/000055520.pdf"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li>
+	<li class="col" id="FM7nntp32j3v0nuam6okkostgko2FM"><div class="nodecontent">本文</div>
+		<ul class="subexp">
+	<li class="col" id="FM289vdopv4d9mnpihu64i076d3sFM"><div class="nodecontent">経営者の皆様へ</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1daa5m22lph5n3eq5r3gss97lbFM"><div class="nodecontent">情報セキュリティ対策は、経営に大きな影響を与えます！</div></li>
+	<li class="basic" id="FM3k0em9amf3t60846js1jo1t899FM"><div class="nodecontent">経営者が自ら動かなければ、法的・道義的責任を問われます！</div></li>
+	<li class="basic" id="FM4166jjrbtakle02rc9k8gnu6h2FM"><div class="nodecontent">組織として対策するために、担当者への指示が必要です！</div></li></ul></li>
+	<li class="col" id="FM44j2qe7n474pehjpqsvvthrgodFM"><div class="nodecontent">対象組織と想定する読者</div>
+		<ul class="subexp">
+	<li class="basic" id="FM795ej6i8idu6vq0cchd1j32oa2FM"><div class="nodecontent">経営者層・システム管理者層</div></li>
+	<li class="col" id="FM0k0elm5k567p5qud4k193hfn69FM"><div class="nodecontent">対象組織</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2erk3rkbs2117bnfnsj8172g6jFM"><div class="nodecontent">本ガイドラインは、業種を問わず中小企業及び小規模事業者（法人のほか、個人事業&#13;<br />主や各種団体も含む） 1を対象として作成されています。</div></li></ul></li>
+	<li class="col" id="FM7pe0vlh8ju9h2uc25bth0f7qugFM"><div class="nodecontent">想定読者</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0bv89ti26dk6lp7b3sk7peqfsdFM"><div class="nodecontent">組織の経営者と、経営者の指示のもとで重要な情報を管理する方を読者と想定して&#13;<br />います。</div></li></ul></li></ul></li>
+	<li class="col" id="FM5pndn9qp118d0jfnmho2ad1987FM"><div class="nodecontent">全体解説</div>
+		<ul class="subexp">
+	<li class="col" id="FM3id78tng4qid4nc0dbpur2t896FM"><div class="nodecontent">（1）本ガイドラインの構成</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0elf046je55v56tqg24irggnqtFM"><div class="nodecontent">本編２部と付録より構成</div></li></ul></li>
+	<li class="col" id="FM2763b47joq18ikqo3r6ba5pqjjFM"><div class="nodecontent">（2）本ガイドラインの使い方</div>
+		<ul class="subexp">
+	<li class="basic" id="FM370seakdt54hqijddmv1g48agtFM"><div class="nodecontent">①経営者の方</div></li>
+	<li class="basic" id="FM235ctc54d7dv50v1oiu5a22jmtFM"><div class="nodecontent">②経営者の指示のもとで重要な情報を管理する方</div></li>
+	<li class="col" id="FM37fgd1083hdv3lpvh41c5a145aFM"><div class="nodecontent">【図3】情報セキュリティ対策の進め方</div>
+		<ul class="subexp">
+	<li class="col" id="FM4ij4r8vhlup6k4m7cvd12p30j1FM"><div class="nodecontent">Step1 まず始める</div>
+		<ul class="subexp">
+	<li class="basic" id="FM349c3elaaevlqsvt2bblqe16kpFM"><div class="nodecontent">情報セキュリティ5か条</div></li></ul></li>
+	<li class="col" id="FM2lesu5254ahjsq7kgdogrilm8uFM"><div class="nodecontent">Step2 現状を知り改善する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM79pnlp56j91p09tf1npshbe74mFM"><div class="nodecontent">情報セキュリティ自社診断</div></li></ul></li>
+	<li class="col" id="FM11l25lr07n4ovknjdia70dtaf3FM"><div class="nodecontent">Step3 本格的に取り組む</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1kp1k7qn0kjc4riha45nchct2qFM"><div class="nodecontent">情報セキュリティポリシーの策定</div></li></ul></li>
+	<li class="col" id="FM3vu6a97ub1p6h8sq228bs34osnFM"><div class="nodecontent">Step4 改善を続ける</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5phchquvbo1h264sijdcjpgbgaFM"><div class="nodecontent">情報セキュリティ対策のさらなる改善に向けて</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM3aomo37je95144igtjpnu6hkb5FM"><div class="nodecontent">第 1部 経営者編</div>
+		<ul class="subexp">
+	<li class="col" id="FM4tt49icc6n58jb339hv7cuqhl1FM"><div class="nodecontent">情報セキュリティ対策を怠ることで企業が被る不利益</div>
+		<ul class="subexp">
+	<li class="col" id="FM6krjqdgckt8026t7n3udnbqrjmFM"><div class="nodecontent">(1) 金銭の喪失</div>
+		<ul class="subexp">
+	<li class="col" id="FM1ruk3s5iipcen164l2l616jr6cFM"><div class="nodecontent">【表2】最近のサイバー攻撃等による情報漏えい等の経済的損失例</div>
+		<ul class="subexp">
+	<li class="col" id="FM11k8p2rfogan1862os63pr7jl1FM"><div class="nodecontent">情報漏えい</div>
+		<ul class="subexp">
+	<li class="col" id="FM53io770hjiovmcffuejbtou1jfFM"><div class="nodecontent">教育サービス事業者で顧客の個人情報が3504件が漏えい（2014年）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM59ddk0bs07n1422qu9fuq76tg7FM"><div class="nodecontent">システム開発・運用を行っている委託先の再委託先社員による不正取得と名簿の売却</div></li></ul></li>
+	<li class="col" id="FM0mtmoq1gmbcue600ojtjerrpi1FM"><div class="nodecontent">株式を公開している雑貨卸事業者でインターネット上の株主向けサービスに登録された株主の個人情報6187件（他社の株主個人情報含め12014件）が漏えいした（2015年）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1rgonl99cd2bunaeo81rf37d4uFM"><div class="nodecontent">運営委託先サービスサイトへの不正アクセス</div></li></ul></li>
+	<li class="basic" id="FM4cg4loa06btiikdb2tq84tpmcdFM"><div class="nodecontent">航空会社の顧客の個人情報4131件が漏えいした（2014年）</div></li>
+	<li class="basic" id="FM4l1vosd8us6ivc2dmrlohbghutFM"><div class="nodecontent">菓子食品製造事業者で個人情報29999件が漏えいした（2015年）</div></li>
+	<li class="basic" id="FM1e97u2lpkuhqvj9st2p4gi9356FM"><div class="nodecontent">国内半導体製造事業者の技術jに関する機密情報が韓国の同業者に漏えい（2014年）</div></li>
+	<li class="basic" id="FM7dk3lv24folrjtog972oqtrramFM"><div class="nodecontent">メガネ販売事業者でオンラインショップ顧客のクレジットカード情報2059件の漏えい（2013年）</div></li></ul></li>
+	<li class="col" id="FM6reu951vn0po0bnk0o6s6fas7iFM"><div class="nodecontent">ウイルス感染</div>
+		<ul class="subexp">
+	<li class="col" id="FM3bp59qdvejmccqtamebt8ja8e9FM"><div class="nodecontent">米国の病院で院内ネットワークで共有する電子カルテシステムがウイルスによる攻撃により動作しなくなり診療不能に（2016年）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM574bjrhtu5inlbt8pnplrbf84iFM"><div class="nodecontent">ランサムウェアに感染し、ファイルが暗号化されたため</div></li></ul></li></ul></li>
+	<li class="col" id="FM5cb0cmrl8d15nbddk51upb98auFM"><div class="nodecontent">ウェブサイト改ざん</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2om8ute8muigbf89tpct6t5nitFM"><div class="nodecontent">観光バス事業者のホームページが改ざんされ閲覧するとウイルスに感染する恐れ（2014年）</div></li></ul></li></ul></li></ul></li>
+	<li class="basic" id="FM21f4dihrhk0lco909q50dmt58mFM"><div class="nodecontent">(2) 顧客の喪失</div></li>
+	<li class="basic" id="FM784lnuftj525tmlf0fsd2qvee5FM"><div class="nodecontent">(3) 業務 の喪失</div></li>
+	<li class="basic" id="FM1ejfaok0d3rq9jsapabh75ul13FM"><div class="nodecontent">(4) 従業員 への影響</div></li></ul></li>
+	<li class="col" id="FM064llul316f3pftu8fl1asvtj8FM"><div class="nodecontent">経営者が負う責任</div>
+		<ul class="subexp">
+	<li class="col" id="FM3b5r7n5af4pg9hulvtjubkqce5FM"><div class="nodecontent">(1) 経営者などに問われる法的責任</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4ksbc8i8v6bi0eb6e684sevf4aFM"><div class="nodecontent">・個人情報</div></li>
+	<li class="basic" id="FM365lc2fplhnovv9uc5jh1b5kctFM"><div class="nodecontent">・他社から預かった秘密情報</div></li>
+	<li class="basic" id="FM1aps0pj7b8oufibb5kb3mjmbj2FM"><div class="nodecontent">・自社の秘密情報</div></li>
+	<li class="basic" id="FM3vete2v73mkp69qu7oicgbfploFM"><div class="nodecontent">・株価に影響を与える可能性のある未公開内部情報</div></li></ul></li>
+	<li class="col" id="FM4i3doc8080u301o7ncrcs9ep1qFM"><div class="nodecontent">(2) 関係者や社会に対する責任</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4bvdbrm5bbjvj945lqa03k6mcfFM"><div class="nodecontent">・営業停止、売上高の減少、企業イメージの低下などで、自社に損害をもたらずだけでなく、取引先に対する信頼関係の喪失、業界やサービス全体のイメージダウン</div></li>
+	<li class="basic" id="FM2a1flg9ttcpnvff466ukfeo0d7FM"><div class="nodecontent">法令順守・顧客・取引先・従業員</div></li></ul></li></ul></li>
+	<li class="col" id="FM2imaqpgupsdk9lnd0ujl7hceoqFM"><div class="nodecontent">経営者は何をすればよいか</div>
+		<ul class="subexp">
+	<li class="basic" id="FM052utpajuf2vvjp01gktmp7hl5FM"><div class="nodecontent"><a href="http://www.meti.go.jp/press/2015/12/20151228002/20151228002-2.pdf">サイバーセキュリティ経営ガイドライン【2015年12月MEIT・IPA】の内容を中小企業向けに編集</a> <a href="http://www.meti.go.jp/press/2015/12/20151228002/20151228002-2.pdf"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li>
+	<li class="col" id="FM0hd4hk6nq5324hfnlfihave3l3FM"><div class="nodecontent">経営者が認識する必要な「３原則」</div>
+		<ul class="subexp">
+	<li class="col" id="FM1artfo2uj6jngk3e62h4pchnr1FM"><div class="nodecontent">原則１ 情報セキュリティ対策は経営者のリーダシップのもとで進める</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7pbeieudaml24vcaenr3tuseavFM"><div class="nodecontent">さまざまな脅威がもたらすリスクに対する対策は、経営者が判断して意思決定し、自社の事業に見合った情報セキュリティ対策を実施します。</div></li>
+	<li class="col" id="FM2jtogl63v22cfb47148p02po3hFM"><div class="nodecontent">セキュリティ対策をしないことによる損失、対策に要する投資、ITの利活用を推進することによる利益を勘案して判断</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5ek1m5pl8d82prvpg5agj9bbocFM"><div class="nodecontent">セキュリティ対策をしないことによる損失＞対策に要する投資</div></li>
+	<li class="basic" id="FM6g9cl1ui42nsogvfrdo6o5p56lFM"><div class="nodecontent">ITの利活用を推進することによる利益＞対策に要する投資</div></li></ul></li></ul></li>
+	<li class="col" id="FM68c37sfv6138d4m6lknsvmqatmFM"><div class="nodecontent">原則２ 委託先における情報セキュリティ対策まで考慮する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM12ro4tt0i8is42mhcbs5dpc9ddFM"><div class="nodecontent">自社同様に十分な注意を払い、必要に応じて委託先が実施している情報セキュリティ対策も確認</div></li></ul></li>
+	<li class="col" id="FM2lsj4qvifn5po0hk6giapl52btFM"><div class="nodecontent">原則３ 情報セキュリティに関する関係者とのコミュニケーションは、どんなときにも怠らない</div>
+		<ul class="subexp">
+	<li class="basic" id="FM40jnd0ngbnoofqt7uh1lh6kf4vFM"><div class="nodecontent">普段から自社の情報セキュリティ対策や、事故が起きたときの対応について、関係者に明確に説明できるように経営者自身が理解し、整理しておくことが重要です。</div></li></ul></li></ul></li>
+	<li class="col" id="FM2ldjqu4g3cevq7fdrtatpva3mbFM"><div class="nodecontent">企業が重要 として実施する「重要 7項目の取組」</div>
+		<ul class="subexp">
+	<li class="col" id="FM2lipi9cad5llsp84267qjo4598FM"><div class="nodecontent">取組１ 情報 セキュリティ に関するリスクを認識し組織全体での対応方針を定める</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1trnkvlilc4hhaq4hgl1qmde48FM"><div class="nodecontent">「当社は中小企業の情報セキュリティ対策ガイドラインに基づき情報セキュリティ対策を実践する。」「当社は顧客情報の流出防止を徹底することから情報セキュリティ対策を開始する。」</div></li></ul></li>
+	<li class="col" id="FM60nfo6h1ioomeqr0afg58ndeknFM"><div class="nodecontent">取組２ 情報セキュリティ対策を行うための資源（予約、人材など）を確保する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3l75dovcpv74fddt4g7kor9m90FM"><div class="nodecontent">万が一事故（インシデント7）が起きてしまった場合、被害を最小限に止めるために、あらかじめ準備することも含みます。</div></li></ul></li>
+	<li class="col" id="FM0ihapkvh9s0g4hmaucbh6atk2pFM"><div class="nodecontent">取組３ 情報セキュリティのリスクを把握し、どこまで情報セキュリティ対策を行うのかを定めたうえで担当者に実行させる</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6qtdtl1aqsa9oatk5mgsi9f9ufFM"><div class="nodecontent">事業を行う上で見込まれる情報セキュリティのリスクを把握した上で、必要十分な対策を検討させます。検討した対策ごとに予算を与え、担当者を任命し、実行を指示します。</div></li></ul></li>
+	<li class="col" id="FM2kf7snuuf0laitd2e5aj35jc1tFM"><div class="nodecontent">取組４ 情報セキュリティ対策に関する定期的な見直しを行う</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1ts9mrshhljukgclsi8p82subnFM"><div class="nodecontent">最初から最適な形で実現することはどんな会社でも難しいもの。また情報技術は進化が早く、加えて脅威も変化します。</div></li></ul></li>
+	<li class="col" id="FM5u7tvsqlo6isdin9hs5uq75depFM"><div class="nodecontent">取組５ 業務委託する場合や外部ITシステムやサービスを利用する場合は、自社で必要と考える情報セキュリティ対策が担保されるようにする</div>
+		<ul class="subexp">
+	<li class="basic" id="FM71ev664v6d92tkb9d8eqtcnl4fFM"><div class="nodecontent">契約書に情報セキュリティに関する相手先の責任や実施すべき対策を明記し、合意する</div></li>
+	<li class="basic" id="FM21sifnhek5g063jam8855t5v6gFM"><div class="nodecontent">利用規約やサービスに付随する情報セキュリティ対策等を確認したうえで選定するよう担当者に指示する</div></li></ul></li>
+	<li class="col" id="FM0162ckgab4pjhu9grkm3lt16fnFM"><div class="nodecontent">取組６ 情報セキュリティに関する最新動向を収集する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7uk118o7tro6cn7i016e3lbvtmFM"><div class="nodecontent">情報セキュリティに関する最新動向を発信している公的機関8などを把握しておき、常時参照することで、新たな脅威に備えるようにします。また、知り合いやコミュニティへの参加で情報交換を積極的に行い、得られた情報について、業界団体、委託先などと共有します。</div></li></ul></li>
+	<li class="col" id="FM2880aut3jb1b4v2t0ap9o9nmbaFM"><div class="nodecontent">取組７ 緊急時の社内外の連絡先や被害発生時に行うべき内容について準備しておく</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6dimpfbak8hnhi2sni3qjh3fc8FM"><div class="nodecontent">万が一のインシデントに備えて、緊急時の連絡体制を整備します。、経営者の対応についても、あらかじめ決めておけば、冷静で的確な対応が可能になります。</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM2ntd8h7jgh1i5oqkmk4dd82c8tFM"><div class="nodecontent">第 2部 管理実践編</div>
+		<ul class="subexp">
+	<li class="col" id="FM5n9b5dn876mi5ttn88ven9gqhnFM"><div class="nodecontent">情報セキュリティ管理の進め方</div>
+		<ul class="subexp">
+	<li class="basic" id="FM22le0pesipo4cmsfc7havtrds1FM"><div class="nodecontent">【図5】ガイドラインの使用方法</div></li></ul></li>
+	<li class="col" id="FM3s08ejtqo3bqk1nni2dfi4rkkcFM"><div class="nodecontent">情報セキュリティ５か条</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0j5ha0tpm175f5s6t504rirjkpFM"><div class="nodecontent">【表4】情報セキュリティ5か条</div></li>
+	<li class="basic" id="FM0erk3p16fm9rupm1seutaclmu5FM"><div class="nodecontent">OSやソフトウェアは常に最新の状態にしよう！</div></li>
+	<li class="basic" id="FM262rjtbujv36bbjp983dfjkqhsFM"><div class="nodecontent">ウイルス対策ソフトを導入しよう！</div></li>
+	<li class="basic" id="FM0kpbadcnfsln2fa9smml653qsrFM"><div class="nodecontent">パスワードを強化しよう！</div></li>
+	<li class="basic" id="FM2bl4ajqoa69mbf61pmn9d5la57FM"><div class="nodecontent">共有設定を見直そう！</div></li>
+	<li class="basic" id="FM389dcsq3abb751c33s13fl82oqFM"><div class="nodecontent">脅威や攻撃の手口を知ろう！</div></li></ul></li>
+	<li class="col" id="FM084ooridcu7q4103n57t5rje2mFM"><div class="nodecontent">5分でできる！情報セキュリティ自社診断</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4q0utr48jh70frp5he1lj0k4k7FM"><div class="nodecontent">Part1 基本的対策</div></li>
+	<li class="basic" id="FM2k15m42sef18dil8s75bebcuc6FM"><div class="nodecontent">Part2 従業員としての対策</div></li>
+	<li class="basic" id="FM3a5h2baeq654qfm9j0kvtgsdf2FM"><div class="nodecontent">Part3 組織としての対策</div></li></ul></li>
+	<li class="col" id="FM3t2q1aatipfo8evnvt42t54k8bFM"><div class="nodecontent">情報セキュリティポリシーの策定</div>
+		<ul class="subexp">
+	<li class="col" id="FM2hk5olr6jbdavbojiit3u1nffbFM"><div class="nodecontent">（1）基本的な考え方</div>
+		<ul class="subexp">
+	<li class="col" id="FM6365jhp1vrqq1i3qfm7gbai5orFM"><div class="nodecontent">① 自社に適合したポリシーを策定</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7p16ivh9asklgjjmfhmm7cnirnFM"><div class="nodecontent">【図6】セキュリティポリシー文書構成</div></li></ul></li>
+	<li class="col" id="FM6q183lej2dhp319nhm50inu93mFM"><div class="nodecontent">② 情報セキュリティリスクの大きなものから重点的に対策を実施</div>
+		<ul class="subexp">
+	<li class="basic" id="FM61j0iccpgfvauo68ft5kc6qpelFM"><div class="nodecontent">【図7】リスクの「保有」の考え方</div></li></ul></li></ul></li>
+	<li class="col" id="FM3citfhkkv7loqj65ps9agtvkfaFM"><div class="nodecontent">（2） ポリシー策定までの流れ</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1qm5998315lolfpe1e7r1uic38FM"><div class="nodecontent">【図8】情報セキュリティポリシー策定までの流れ</div></li>
+	<li class="col" id="FM4lbm0c72greps7nd6tqh3se1c7FM"><div class="nodecontent">手順１ 情報資産台帳を作成する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5cb93ouq5ac4cdqnd69s0rj7pfFM"><div class="nodecontent">どのような情報資産があるか洗い出して重要度を判断する</div></li>
+	<li class="basic" id="FM35hos1vhpt8gnvquttutbu357bFM"><div class="nodecontent">機密性、完全性、可用性それぞれの評価値11を記入します（表6）。</div></li>
+	<li class="basic" id="FM4ig8qjqsb8tf7r2g8am41uaruqFM"><div class="nodecontent">機密性・完全性・可用性の評価値から重要度を判定します（表7）。</div></li>
+	<li class="col" id="FM32u1uqsg3s3ks62257scbl940tFM"><div class="nodecontent">【表6】情報資産の機密性・完全性・可用性の評価基準</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0p1t30hg647o2th7oqk10hvehhFM"><div class="nodecontent">機密性・完全性・可用性 重要度</div></li></ul></li>
+	<li class="basic" id="FM03jbbce4q87la5shpmi189rk71FM"><div class="nodecontent">【表7】情報資産の重要度判断基準</div></li>
+	<li class="basic" id="FM56o794059ivlvgd95he3ru9v8qFM"><div class="nodecontent">付録の利用方法（手順１）</div></li></ul></li>
+	<li class="col" id="FM1mfh7gbfqdfok46i2vcv7nsjp7FM"><div class="nodecontent">手順2 リスク値の算定</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2dt4l3dk1ginms3839aihb7n9cFM"><div class="nodecontent">リスク値=重要度（機密性ｘ完全性ｘ機密性）ｘ被害発生可能性の合計（脅威の起きる可能性ｘ脆弱性の大きさ）</div></li>
+	<li class="basic" id="FM6rnj4hbaftj1474mlh2fjfk8i5FM"><div class="nodecontent">【表9】リスク値の算定基準</div></li>
+	<li class="basic" id="FM2qsl5tuu6v235ud5b3me34qvemFM"><div class="nodecontent">【表10】脅威例に応じたリスクのレベル</div></li>
+	<li class="basic" id="FM26s6k5f6d4fattuurflvk60aupFM"><div class="nodecontent">付録の利用方法（手順2）</div></li></ul></li>
+	<li class="col" id="FM6cesrp0e0ruor281v8rclgtd35FM"><div class="nodecontent">手順3 情報セキュリティ対策を決定（対策を決める）</div>
+		<ul class="subexp">
+	<li class="col" id="FM61p0lpkegk6smpa5uofeo6jhn4FM"><div class="nodecontent">ア）リスクを低減する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6lsv8m6n9gr9inu8ms1fe4t1ecFM"><div class="nodecontent">　自社で実行できる情報セキュリティ対策を導入ないし強化することで、脆弱性を改善し、事故が起きる可能性を下げます。</div></li></ul></li>
+	<li class="col" id="FM07evt037erap8j251m34dm86atFM"><div class="nodecontent">イ）リスクを保有する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2ruholbm8qhdjcudi5fgjtn472FM"><div class="nodecontent">　事故が発生しても許容できる、あるいは対策にかかる費用が損害額を上回る場合などは対策を講じず、現状を維持します。</div></li></ul></li>
+	<li class="col" id="FM6blqp59dgfgj76acklu64n3h64FM"><div class="nodecontent">ウ）リスクを回避する</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3qiq681gqmu3e3suik4hfnar83FM"><div class="nodecontent">　仕事のやりかたを変える、情報システムの利用方法を変えるなどして、想定されるリスクそのものをなくします。</div></li></ul></li>
+	<li class="basic" id="FM1fbhuttnl3qtl7depj55gd444dFM"><div class="nodecontent">リスクを許容する</div></li>
+	<li class="basic" id="FM00igja1la00less85lboemm7qnFM"><div class="nodecontent">付録の利用方法（ツールA）</div></li></ul></li>
+	<li class="col" id="FM2dpvrbmjqi94bbuvobu64k5r7cFM"><div class="nodecontent">手順4 情報セキュリティポリシーを策定（対策をルールにする）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7gs7qr5r86hsct3ggmf6tji7e6FM"><div class="nodecontent">付録の利用方法（手順4）</div></li>
+	<li class="col" id="FM5iorpp3aok0jfio98ch7omagskFM"><div class="nodecontent">【表11】情報セキュリティポリシーサンプル</div>
+		<ul class="subexp">
+	<li class="basic" id="FM00qte9p318e2m6u4peffc4554mFM"><div class="nodecontent">1 組織的対策</div></li>
+	<li class="basic" id="FM6u97mq6thck78s1hf0j04kb392FM"><div class="nodecontent">2 人的対策</div></li>
+	<li class="basic" id="FM0q5qkramk7nfc27pt53vbp1nvkFM"><div class="nodecontent">3 情報資産管理</div></li>
+	<li class="basic" id="FM65acesj5trhd2gvniqot3tj6cfFM"><div class="nodecontent">4 マイナンバー対応</div></li>
+	<li class="basic" id="FM6vr108d807t543t2lq1pfqmohlFM"><div class="nodecontent">5 アクセス制御及び認証</div></li>
+	<li class="basic" id="FM2h9mbffmvc1oec92usk6hqjte5FM"><div class="nodecontent">6 物理的対策</div></li>
+	<li class="basic" id="FM0vkaj49j60plqm6prpsve7mejiFM"><div class="nodecontent">7 IT機器利用</div></li>
+	<li class="basic" id="FM6tavfvmslcq031q72suodnet46FM"><div class="nodecontent">8 IT基盤運用管理</div></li>
+	<li class="col" id="FM32k205bsdt74agjvmuh7uk2ti3FM"><div class="nodecontent">9 システムの開発及び保守 </div>
+		<ul class="subexp">
+	<li class="basic" id="FM5rcvfnks7gn806lqmqncnvjd2cFM"><div class="nodecontent">社内でシステム開発を行う場合</div></li></ul></li>
+	<li class="col" id="FM32f05bih2ebmkvqa2dc4q9hilkFM"><div class="nodecontent">10 委託管理 </div>
+		<ul class="subexp">
+	<li class="basic" id="FM5g5ogomjchin1933j9gpiqlbqkFM"><div class="nodecontent">業務委託を行う場合</div></li></ul></li>
+	<li class="basic" id="FM4fduejl875as6drd0j4gsohs27FM"><div class="nodecontent">11 情報セキュリティインシデント対応及び事業継続管理</div></li>
+	<li class="col" id="FM3jqqsgipliq8h8qmoj9n3a98ghFM"><div class="nodecontent">12 社内体制図 </div>
+		<ul class="subexp">
+	<li class="basic" id="FM4a9os420sdi8epqhg5ja3qu8m7FM"><div class="nodecontent">従業員数２名以上</div></li></ul></li>
+	<li class="col" id="FM1hhde4sulq9vvekbabv5fotr2uFM"><div class="nodecontent">13 委託契約書サンプル</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5a2col63v3os40d4iig7f76qn7FM"><div class="nodecontent">委託先と秘密情報や個人情報等の重要な情報の授受が発生する場合</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="basic" id="FM0cqpi0ibes1hv4n2ljq319ba3jFM"><div class="nodecontent">（3）委託時の情報セキュリティ対策</div></li>
+	<li class="col" id="FM3qeltbl2lcrfs35o15iqvkfbpuFM"><div class="nodecontent">（4）情報セキュリティ対策の実行</div>
+		<ul class="subexp">
+	<li class="col" id="FM4novgub21e3l6ea2qs9e17s79aFM"><div class="nodecontent">① 通常時の役割</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1o6kjjlnnksdl15plo2rpvteetFM"><div class="nodecontent">経営者</div></li>
+	<li class="basic" id="FM2rublg0tqla68028uea6tbqkbsFM"><div class="nodecontent">管理者層</div></li>
+	<li class="basic" id="FM2o84an36du0n0ehqmur82j77niFM"><div class="nodecontent">一般従業員</div></li></ul></li>
+	<li class="col" id="FM2m6n86cilqbpdns8s35u3qclhfFM"><div class="nodecontent">② 緊急時の対応</div>
+		<ul class="subexp">
+	<li class="col" id="FM00l3l5hri30sfsqfht7f1reepkFM"><div class="nodecontent">※しおり</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3narcoqd2kglukp8stnu4qc747FM"><div class="nodecontent">① 緊急時の指揮命令と対応の優先順位の決定</div></li>
+	<li class="basic" id="FM49b774mcu7n4o2o0dci70hvijrFM"><div class="nodecontent">② インシデントへの対応（インシデントレスポンス）</div></li>
+	<li class="basic" id="FM13dn13bjo0uqhv4a00fdj95ok4FM"><div class="nodecontent">③ インシデントの影響と被害の分析</div></li>
+	<li class="basic" id="FM04ne31sofjjj24adrp27al186tFM"><div class="nodecontent">④ 情報収集と自社に必要な情報の選別</div></li>
+	<li class="basic" id="FM5j3ge2l5rcffv0gagr314054l2FM"><div class="nodecontent">⑤ 社内関係者への連絡と周知</div></li>
+	<li class="basic" id="FM5j13k2f5ucbnqqmck82ee2ham6FM"><div class="nodecontent">⑥ 外部関係機関との連絡</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM7kjon2aqkb4uersm8cbpdbt6hlFM"><div class="nodecontent">（5）チェックと改善</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4bh2u8361g2frschs7mvq30fh0FM"><div class="nodecontent">① チェックの方法</div></li>
+	<li class="basic" id="FM55joh7g3l10sm58hv9kl73m7t4FM"><div class="nodecontent">② 改善の方法</div></li></ul></li></ul></li>
+	<li class="col" id="FM5phi86ki77b59l5l5lt2068ha0FM"><div class="nodecontent">情報セキュリティ対策のさらなる改善に向けて</div>
+		<ul class="subexp">
+	<li class="col" id="FM7ss5t2paup42oq0j2f8rd2d12vFM"><div class="nodecontent">（1）情報セキュリティマネジメントサイクルによる継続的改善</div>
+		<ul class="subexp">
+	<li class="col" id="FM0q8o676ci3mbstv5fkd4jg7prnFM"><div class="nodecontent">　ISO/IEC27001 が定めているマネジメントシステム（管理のしくみ）の考え方の基本は、Plan（計画）、Do（実行）、Check（チェック）、Act（改善）の４段階の活動（PDCA サイクル13）を順に繰り返すことを通じて改善していくことにあります。情報セキュリティ対策で見ると、それぞれ次の活動に相当します。</div>
+		<ul class="subexp">
+	<li class="basic" id="FM12okk0kjbi6tronj4ipor09d97FM"><div class="nodecontent"> Plan：情報セキュリティ対策の計画立案または見直し</div></li>
+	<li class="basic" id="FM61cr2go1aio4q4uk0qhaancaj7FM"><div class="nodecontent"> Do：情報セキュリティ対策の実践</div></li>
+	<li class="basic" id="FM5igj2koorh49f99g97h2fthbriFM"><div class="nodecontent"> Check：監査・点検による活動の有効性確認と経営者による必要な改善箇所の決定</div></li>
+	<li class="basic" id="FM3liip264ktat3llh66gqskcgeoFM"><div class="nodecontent"> Act：改善の実施</div></li></ul></li></ul></li>
+	<li class="col" id="FM1ub2tdigvfllfkn70t5rceeafkFM"><div class="nodecontent">（2）情報セキュリティ対策に関する標準規格</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1gleladk3pbsn0rthde52hsqu9FM"><div class="nodecontent">付録３で示す対策は、中小企業でも取り組みやすいように情報セキュリティの国際規格であるISO/IEC 27002（情報セキュリティ管理策の実践のための規範）から抜粋し、解りやすい表現にしています。</div></li></ul></li>
+	<li class="col" id="FM6abhgnh97e9krdese85ei80np9FM"><div class="nodecontent">（3）情報セキュリティ監査・点検の実施</div>
+		<ul class="subexp">
+	<li class="basic" id="FM51puckcmfa2j3kdgsljkpdv9boFM"><div class="nodecontent"> 質問（ヒアリング）：従業員や委託先の管理者などに直接質問して回答を求める</div></li>
+	<li class="basic" id="FM2f9tku88m54esn2unhvh6tio3tFM"><div class="nodecontent"> 閲覧（レビュー）：情報セキュリティポリシーの関連手続きで申請書などの帳票や、コンピュータのログ、設定内容など実行の証拠となるものを見て確認する</div></li>
+	<li class="basic" id="FM5ba5b3vqgd55hjlijv8cssf6toFM"><div class="nodecontent"> 観察（視察）：監査・点検者が現場に赴き、情報セキュリティ対策を行う当事者が情報セキュリティポリシーに従った行動をしていることを目視で確認する</div></li>
+	<li class="basic" id="FM1p2s395f8j32nufnp8fcgfor8iFM"><div class="nodecontent"> 技術診断：技術的対策の運用状況などについて、監査・点検者が自ら機器を操作することによって検証する（情報システムや社内ネットワークの脆弱性を確認するために、専用ソフトウェアを使い技術的な脆弱性を診断することもある）</div></li></ul></li>
+	<li class="col" id="FM74bovr0pp1mejf17tpv5da90ciFM"><div class="nodecontent">（4）改善の実施</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7a42sa4mif1e8hln0ivnns6crtFM"><div class="nodecontent">経営者や管理者層での議論、検討を通じて、情報セキュリティポリシーや具体的な対策に関する従業員や関係者の理解を促し、不備を改善し、今後に向けた改善につなげていきます。</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM0ngk7udl0f25jc8lmd4pchjlpsFM"><div class="nodecontent">おわりに</div>
+		<ul class="subexp">
+	<li class="col" id="FM1lh2qdggepbroo09ua5m6uhuu6FM"><div class="nodecontent" />
+		<ul class="subexp">
+	<li class="basic" id="FM620i6vlnci34eeal4cacuf4elrFM"><div class="nodecontent">標的型攻撃の巧妙化により、適切な対策を実施していても被害を完全に防ぐことが困難になる中、異常事態の発生を素早く検知し、被害を最小限に抑制するための体制が注目されるなど、対策面も変化しています。また、マイナンバー法の施行、個人情報保護法の改正などに伴い、企業規模を問わず情報セキュリティに対する社会的要請、法的責任が拡大し、中小企業においても情報セキュリティへの取り組みは優先課題となっています。</div></li>
+	<li class="basic" id="FM7328s4t7d7b02q5dthddb1m8msFM"><div class="nodecontent">　一方で、中小企業では依然として資金面や人材面での制約から情報セキュリティ対策の実施が難しいといわれており、実際の統計からも大企業に比較すれば対策が進んでいない傾向が認められます。</div></li>
+	<li class="basic" id="FM4puc0lkjv385ttculehb7ohh8fFM"><div class="nodecontent">。こうした状況を踏まえ、近年、変化・増大する脅威に対する情報セキュリティ対策を、適切かつ有効なものとすることを目的として、本ガイドラインの初版の内容を抜本的に見直し、改訂版を作成することとしました。</div></li>
+	<li class="basic" id="FM1hvd75bvrt4cdpvjaf9ui36o14FM"><div class="nodecontent">中小企業は情報セキュリティ対策に十分な経営資源を割り当てることができないという不利を抱える一方で、経営者を含め「従業員の顔が見える」という有利な条件を備えています。</div></li>
+	<li class="basic" id="FM015uj137fpj27f16dvikg3j6u2FM"><div class="nodecontent">情報セキュリティの第一歩は、経営者が情報セキュリティの重要性を自ら認識し、そのことを従業員に伝え、従業員がその対策を行う意義を理解することです</div></li>
+	<li class="basic" id="FM2ghbdinn5ldmeqgl0cmhdmngr2FM"><div class="nodecontent">。つまり、「従業員の顔が見える」ということは経営者が直接管理者・担当者に対策を指示することができ、対策の結果についても直接報告を受けることができるなど、大企業に比べて迅速に対応ができるという有利な条件を備えています。</div></li>
+	<li class="basic" id="FM4l3pikan2unbctuemlug1uda58FM"><div class="nodecontent">また、この特質を生かすことで、大企業では必要となるセキュリティ監視や情報共有のための設備が不要とできるため、大企業よりも費用をかけずに対策を実現することも可能です。</div></li></ul></li></ul></li>
+	<li class="col" id="FM74gbihs2knt2ho547c7lfamn13FM"><div class="nodecontent">本書で用いてる語の説明</div>
+		<ul class="subexp">
+	<li class="basic" id="FM558qksthsa3bki3d66se78rf1uFM"><div class="nodecontent">インシデント</div></li>
+	<li class="basic" id="FM46bdu4uhq05br0e756s0buhvfcFM"><div class="nodecontent">（情報の）可用性</div></li>
+	<li class="basic" id="FM5il8bt2eup9r78n471jifeqqt2FM"><div class="nodecontent">（情報の）完全性</div></li>
+	<li class="basic" id="FM2296r8lcgvmjaaadt3bnpor5h5FM"><div class="nodecontent">（情報の）機密性</div></li>
+	<li class="basic" id="FM7kvti0bf056cbc6hak9p8jgupeFM"><div class="nodecontent">クラウドサービス</div></li>
+	<li class="basic" id="FM0q3ab8qk7r3v9dqpui0vifq00oFM"><div class="nodecontent">個人情報</div></li>
+	<li class="basic" id="FM6klun9arpu1rgscem9si5dhd84FM"><div class="nodecontent">サイバーセキュリティ</div></li>
+	<li class="basic" id="FM41rvgpp249mm2caoqrbnehikuiFM"><div class="nodecontent">CSIRT（ シーサート、Computer Security Incident Response Team）</div></li>
+	<li class="basic" id="FM3il80qk7m437jm87ncs9okcqqrFM"><div class="nodecontent">情報セキュリティ</div></li>
+	<li class="basic" id="FM70d0q919sptbf8eksj61de20t4FM"><div class="nodecontent">情報セキュリティインシデント</div></li>
+	<li class="basic" id="FM1017sitdoq1dfbv3ejvboem09pFM"><div class="nodecontent">情報セキュリティに関連した保険商品</div></li>
+	<li class="basic" id="FM0khr9ksnechu5u0nma5bahqu6rFM"><div class="nodecontent">情報セキュリティポリシー</div></li>
+	<li class="basic" id="FM74g2ff7je9gfjd02k90crhikj4FM"><div class="nodecontent">情報セキュリティマネジメントサイクル</div></li>
+	<li class="basic" id="FM7e94ak8fuslf0a32ucdh91vi02FM"><div class="nodecontent">ソーシャルエンジニアリング</div></li>
+	<li class="basic" id="FM7qkjrfc5ddh3he4gh968s0jetkFM"><div class="nodecontent">ランサムウェア</div></li></ul></li></ul></li>
+	<li class="col" id="FM5ikheo0grm8ud35r1fuba8hk23FM"><div class="nodecontent">◦付録1：</div>
+		<ul class="subexp">
+	<li class="col" id="FM2gv7ha1qukcbc1b9am6clvc8spFM"><div class="nodecontent"><a href="http://www.ipa.go.jp/files/000055516.pdf">情報セキュリティ5か条（全2ページ、721KB）pdf</a> <a href="http://www.ipa.go.jp/files/000055516.pdf"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="col" id="FM4odrvh4hl2lcq0k7ma4niipo6bFM"><div class="nodecontent">こんな情報があるはず！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM09ql1qrivmhf7toi7oro63smt1FM"><div class="nodecontent">従業員のマイナンバー、住所、給与明細</div></li>
+	<li class="basic" id="FM2fpa4qh2drqhljg677oo9fl57vFM"><div class="nodecontent">お客様や取引先の連絡先一覧</div></li>
+	<li class="basic" id="FM7r2i2c7m3dh3jnu93vokc9f18hFM"><div class="nodecontent">取引先ごとの仕切り額や取引実績</div></li>
+	<li class="basic" id="FM3lgt6a0c7p3dedqi8rr1mvfe8fFM"><div class="nodecontent">新製品の設計図などの開発情報</div></li>
+	<li class="basic" id="FM1gjrs0um6bq319l4pboda593obFM"><div class="nodecontent">組織の経理情報</div></li>
+	<li class="basic" id="FM109kepngk6b5vb026bq4552e08FM"><div class="nodecontent">取引先から取扱注意と言われた情報</div></li></ul></li>
+	<li class="col" id="FM39m2uredfn5j19ob8d3c3blkd6FM"><div class="nodecontent">漏れたら大変！こんなダメージが！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2oiijvpb1c0607gju1ne178re2FM"><div class="nodecontent">被害者への損害賠償などの支払い</div></li>
+	<li class="basic" id="FM4m13uakvn049rkjr5mb0t64nj2FM"><div class="nodecontent">取引停止、顧客の他社への流出</div></li>
+	<li class="basic" id="FM4qeb8vffk8vf2pdj3f49pjqu1sFM"><div class="nodecontent">ネットの遮断などによる生産効率のダウン</div></li>
+	<li class="basic" id="FM2vqevipp5tb8j3j8n1bgvb38lqFM"><div class="nodecontent">従業員の士気低下</div></li></ul></li>
+	<li class="col" id="FM2n6jvobb6m7nfngg5i2nuj2jtnFM"><div class="nodecontent">まずは始めてみよう</div>
+		<ul class="subexp">
+	<li class="col" id="FM4udv5m4feu3amlfgbmgoj5klafFM"><div class="nodecontent">①OSやソフトウェアは常に最新の状態に使用！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3iosvhh3i8c852eb1fg13cvcd5FM"><div class="nodecontent">OSやソフトウェアのセキュリティ上の問題点を放置していると、それを悪用したウイルスに感染してしまう危険性があります。お使いのOSやソフトウェアに修正プログラムを適用する、もしくは最新版を利用しましょう。</div></li></ul></li>
+	<li class="col" id="FM73008661897mfm4sdtrp4v7nviFM"><div class="nodecontent">②ウイルス対策ソフトを導入しよう！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM66umlugo7fo9brljtf5vruahn6FM"><div class="nodecontent">ID・パスワードを盗んだり、遠隔操作を行ったり、ファイルを勝手に暗号化するウイルスが増えています。ウイルス対策ソフトを導入し、ウイルス定義ファイル(パターンファイル)は常に最新の状態になるようにしましょう。</div></li></ul></li>
+	<li class="col" id="FM7fq6qnvm3e7vumvtl3hj0pldhgFM"><div class="nodecontent">③パスワードを強化しよう！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4udu1930pjr7fu0u09r2v0cunrFM"><div class="nodecontent">パスワードが推測や解析されたり、ウェブサービスから窃取したID・パスワードが流用されることで、不正にログインされる被害が増えています。パスワードは｢長く｣｢複雑に｣｢使い回さない｣ようにして強化しましょう。</div></li></ul></li>
+	<li class="col" id="FM1pgvf0bu99adq6apqvj3nqkjqkFM"><div class="nodecontent">④共有設定を見直そう！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1rkr5fcemtsftlm8bi6f5ftqfjFM"><div class="nodecontent">データ保管などのクラウドサービスやネットワーク接続の複合機の設定を間違ったため無関係な人に情報を覗き見られるトラブルが増えています。クラウドサービスや機器は必要な人にのみ共有されるよう設定しましょう。</div></li></ul></li>
+	<li class="col" id="FM3c465jtjqehaq7vd6r6nr7tbduFM"><div class="nodecontent">⑤脅威や攻撃の手口を知ろう！</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2ieq49sbld2lmnunaq4h968ujuFM"><div class="nodecontent">取引先や関係者と偽ってウイルス付のメールを送ってきたり、正規のウェブサイトに似せた偽サイトを立ち上げてID・パスワードを盗もうとする巧妙な手口が増えています。脅威や攻撃の手口を知って対策をとりましょう。</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM4bkb54lqs4pribf6h6co736mhlFM"><div class="nodecontent">◦付録2：</div>
+		<ul class="subexp">
+	<li class="col" id="FM1rievinoisa4ebaedrj7lur1d4FM"><div class="nodecontent"><a href="http://www.ipa.go.jp/files/000055517.pdf">5分でできる！情報セキュリティ自社診断シート（全2ページ、417KB）pdf</a> <a href="http://www.ipa.go.jp/files/000055517.pdf"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="col" id="FM033of0go8vk5n03bj1teu7h4c3FM"><div class="nodecontent">Part1 基本的対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5hlusgu8e658vmmap5rtqgmfhtFM"><div class="nodecontent">1.Windows Update※1 を行うなどのように、常にOS やソフトウェアを安全な状態にしていますか？</div></li>
+	<li class="basic" id="FM6b4ooekoqp4v9mrci2g6eh3q58FM"><div class="nodecontent">2.パソコンにはウイルス対策ソフトを入れてウイルス定義ファイル※2 を自動更新するなどのように、パソコンをウイルスから守るための対策を行っていますか？</div></li>
+	<li class="basic" id="FM62ts1cs55aif77pa8fvo6enpomFM"><div class="nodecontent">3,パスワードは自分の名前、電話番号、誕生日など推測されやすいものを避けて複数のウェブサイトで使いまわしをしないなどのように、強固なパスワードを設定していますか？</div></li>
+	<li class="basic" id="FM3662kluaoasska2dt0m7qn8dq8FM"><div class="nodecontent">4.ネットワーク接続の複合機やハードディスクの共有設定を必要な人だけに限定するなどのように、重要情報に対する適切なアクセス制限を行っていますか？</div></li>
+	<li class="basic" id="FM4tmraa6ld7q9k4gd7098j9vu5mFM"><div class="nodecontent">5.利用中のウェブサービス※3 や製品メーカーが発信するセキュリティ注意喚起を確認して社内共有するなどのように、新たな脅威や攻撃の手口を知り対策を社内共有する仕組みはできていますか？</div></li></ul></li>
+	<li class="col" id="FM2fjq55rl3bp5n5hg5a4m792ucsFM"><div class="nodecontent">Part2 従業員としての対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM54s95mb949lbro7n4pkfvia5tgFM"><div class="nodecontent">6.受信した不審な電子メールの添付ファイルを安易に開いたり本文中のリンクを安易に参照したりしないようにするなど、電子メールを介したウイルス感染に気をつけていますか？</div></li>
+	<li class="basic" id="FM3h9qcq3nojssstt408vkqrk9n9FM"><div class="nodecontent">7.電子メールを送る前に目視にて送信アドレスを確認するなどのように、宛先の送信ミスを防ぐ仕組みを徹底していますか？</div></li>
+	<li class="basic" id="FM7ffvgrqoaa3khb8uanh0bps70pFM"><div class="nodecontent">8.重要情報をメールで送る時は重要情報を添付ファイルに書いてパスワード保護するなどのように、重要情報の保護をしていますか？</div></li>
+	<li class="basic" id="FM5dueff5brrl8r9dj9ckoua5d7qFM"><div class="nodecontent">9.無線LAN を利用する時は強固な暗号化を必ず利用するなどのように、無線LAN を安全に使うための対策をしていますか？</div></li>
+	<li class="basic" id="FM6799bs6551bqjbcc36heo8kdgrFM"><div class="nodecontent">10.業務端末でのウェブサイトの閲覧やSNS への書き込みに関するルールを決めておくなどのように、インターネットを介したトラブルへの対策をしていますか？</div></li>
+	<li class="basic" id="FM2o8269830phdtnbq83orrmii4kFM"><div class="nodecontent">11.重要情報のバックアップを定期的に行うなどのように、故障や誤操作などに備えて重要情報が消失しないような対策をしていますか？</div></li>
+	<li class="basic" id="FM1c0b12fph3b3u3iilq5p8ignfjFM"><div class="nodecontent">12.重要情報を机の上に放置せず書庫に保管し施錠するなどのように、重要情報の紛失や漏えいを防止していますか？</div></li>
+	<li class="basic" id="FM5qs32hr906sdoo8p2fkovrnrbnFM"><div class="nodecontent">13.重要情報を社外へ持ち出す時はパスワード保護や暗号化して肌身離さないなどのように、盗難や紛失の対策をしていますか？</div></li>
+	<li class="basic" id="FM2ghado49foc25k2mdog53d33qnFM"><div class="nodecontent">14.離席時にコンピュータのロック機能を利用するなどのように、他人に使われないようにしていますか？</div></li>
+	<li class="basic" id="FM4g8kj7l19sk5jm3miaefpfbp2eFM"><div class="nodecontent">15.事務所で見知らぬ人を見かけたら声をかけるなどのように、無許可の人の立ち入りがないようにしていますか？</div></li>
+	<li class="basic" id="FM0qrs37ph0i1eoadcccesen528cFM"><div class="nodecontent">16.退社時に机の上のノートパソコンや備品を引き出しに片付けて施錠するなどのように、盗難防止対策をしていますか？</div></li>
+	<li class="basic" id="FM4a7pv2v9aorapbso3k99o6pmgnFM"><div class="nodecontent">17.最終退出者は事務所を施錠し退出の記録（日時、退出者）を残すなどのように、事務所の施錠を管理していますか？</div></li>
+	<li class="basic" id="FM54qqni1m08534p6bkbvcl0tnssFM"><div class="nodecontent">18.重要情報を廃棄する場合は、書類は細断したり、データは消去ツールを使ったりするなどのように、重要情報が読めなくなるような処分をしていますか？</div></li></ul></li>
+	<li class="col" id="FM6ecifecmnnf6ne2dcinkgb0679FM"><div class="nodecontent">Part3 組織としての対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5umfo4e73gcu2ggiah7o259ekeFM"><div class="nodecontent">19.クラウドサービスなど外部サービスを利用する時は利用規約やセキュリティ対策を確認するなどのように、サービスの安全・信頼性を把握して選定していますか？</div></li>
+	<li class="basic" id="FM3jakpt7okriqui7fqfurkuq1u5FM"><div class="nodecontent">20.社内外での個人所有のパソコンやスマートフォンの業務利用を許可制にするなどのように、業務で個人所有端末の利用の可否を明確にしていますか？</div></li>
+	<li class="basic" id="FM38h0js2rmf62qlgvl4ic3458h9FM"><div class="nodecontent">21.採用の際に守秘義務や罰則規定があることを知らせるなどのように、従業員に秘密を守らせていますか？</div></li>
+	<li class="basic" id="FM07njvd7n985bon3lob32sll37nFM"><div class="nodecontent">22.情報管理の大切さなどを定期的に説明するなどのように、従業員に意識付けを行っていますか？</div></li>
+	<li class="basic" id="FM2rd1iv0k0vjfram1i7fr7tk0uqFM"><div class="nodecontent">23.契約書に秘密保持（守秘義務）の項目を盛り込むなどのように、取引先に秘密を守ることを求めていますか？</div></li>
+	<li class="basic" id="FM0a5krgpjn863hcsrdiqo1b05fjFM"><div class="nodecontent">24.秘密情報の漏えいや紛失、盗難があった場合の対応手順書を作成するなどのように、事故が発生した場合に備えた準備をしていますか？</div></li>
+	<li class="basic" id="FM41dfgpqq6qkelnrmps6j1eir44FM"><div class="nodecontent">25.情報セキュリティ対策（上記1～24 など）を会社のルールにするなどのように、情報セキュリティ対策の内容を明確にしていますか？</div></li></ul></li>
+	<li class="col" id="FM3gq0c4d796e78custrf8sbgsfcFM"><div class="nodecontent">さらなる情報セキュリティ対策の検討するには</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3pg3cvs04u0v6hq3hrve3tfal6FM"><div class="nodecontent">「5 分でできる！情報セキュリティ自社診断」の次のステップとして、ガイドラインを活用したポリシーの策定やベンチマークでの自己診断を実施してみよう。</div></li>
+	<li class="col" id="FM13rjoaa5qmdke1q759mdaencs4FM"><div class="nodecontent"> 中小企業の情報セキュリティ対策ガイドライン</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0k1v5mj1iqbpb2urhr7a48sfvpFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/security/keihatsu/sme/guideline/">https://www.ipa.go.jp/security/keihatsu/sme/guideline/</a> <a href="https://www.ipa.go.jp/security/keihatsu/sme/guideline/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li>
+	<li class="col" id="FM3vromh8rec8b0veq4vlda1nh58FM"><div class="nodecontent"> 情報セキュリティ対策ベンチマーク</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6rd8mrm38kbkt2n03e09qmvnivFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/security/benchmark/">https://www.ipa.go.jp/security/benchmark/</a> <a href="https://www.ipa.go.jp/security/benchmark/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li></ul></li>
+	<li class="col" id="FM6lr0v4pc88eu4qq2nfous30pjeFM"><div class="nodecontent">自社診断シートで100 点満点を目指すには</div>
+		<ul class="subexp">
+	<li class="basic" id="FM462kc2nipibs4dpgo53v05boqrFM"><div class="nodecontent">「5 分でできる！情報セキュリティ自社診断パンフレット」のほか、以下のページで提供されている資料もより具体的な対策の検討に有用ですのでご活用ください。</div></li>
+	<li class="col" id="FM78555qqn4culbid3ldcc3vfj0uFM"><div class="nodecontent"> 情報セキュリティ対策支援サイトiSupport</div>
+		<ul class="subexp">
+	<li class="basic" id="FM46q5v3f6b3j6ne2ikge0haptevFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/security/isec-portal/">https://www.ipa.go.jp/security/isec-portal/</a> <a href="https://www.ipa.go.jp/security/isec-portal/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li>
+	<li class="col" id="FM3i906s3iq3o025nmtkj94fi2efFM"><div class="nodecontent"> 対策のしおり</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3sgjml2tg8j072v7v3eka92iaoFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/security/antivirus/shiori.html">https://www.ipa.go.jp/security/antivirus/shiori.html</a> <a href="https://www.ipa.go.jp/security/antivirus/shiori.html"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li>
+	<li class="col" id="FM509ldepfbu2jttk0t4ti4mtr6uFM"><div class="nodecontent"> 映像で知る情報セキュリティ</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5vt7mj411ptdloruead5bgmcfnFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/security/keihatsu/videos/">https://www.ipa.go.jp/security/keihatsu/videos/</a> <a href="https://www.ipa.go.jp/security/keihatsu/videos/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM4i9sge9lro0ruk6odr31e3c8bnFM"><div class="nodecontent"><a href="http://www.ipa.go.jp/files/000055529.pptx">一般職員向け 情報セキュリティハンドブックひな形（全11ページ、444KB）PowerPoint </a> <a href="http://www.ipa.go.jp/files/000055529.pptx"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="col" id="FM6r2i0h02aj48bhdi7m95mktrupFM"><div class="nodecontent">１ 全社基本ルール</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6shfil083iqkncs0te2haub9d7FM"><div class="nodecontent">OSとソフトウェアのアップデート</div></li>
+	<li class="basic" id="FM0dohb7hs0qf4crn176e0egu036FM"><div class="nodecontent">ウイルス対策ソフトの導入</div></li>
+	<li class="basic" id="FM08c89851anfb9c8s62d66u3o0nFM"><div class="nodecontent">パスワードの管理</div></li>
+	<li class="basic" id="FM68gam3ihjcr07rvmu657pueh2jFM"><div class="nodecontent">アクセス制限</div></li>
+	<li class="col" id="FM0i3q832lnr6bl05cesigh8vs2hFM"><div class="nodecontent">セキュリティに対する注意</div>
+		<ul class="subexp">
+	<li class="col" id="FM1ijjv9qfbq1jb3i8jupausrihjFM"><div class="nodecontent">独立行政法人情報処理推進機構（(略称：IPA）　重要なセキュリティ情報</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7aia31vhut1d7njbqb7uqoo0sjFM"><div class="nodecontent"><a href="http://www.ipa.go.jp/security/index.html">http://www.ipa.go.jp/security/index.html</a> <a href="http://www.ipa.go.jp/security/index.html"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li>
+	<li class="col" id="FM57rnq2kb50a8epa731dk7p86feFM"><div class="nodecontent">JVN （Japan Vulnerability Notes）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7mgh1bqs45lajb1prj8vlfvitiFM"><div class="nodecontent"><a href="http://jvn.jp/index.html">http://jvn.jp/index.html</a> <a href="http://jvn.jp/index.html"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li>
+	<li class="col" id="FM1l54qkm362k25h65aab7082fsbFM"><div class="nodecontent"> 一般社団法人 JPCERT コーディネーションセンター(略称：JPCERT/CC) 	</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4dsi73bjj7r84k0p5hj7lv2np4FM"><div class="nodecontent"><a href="https://www.jpcert.or.jp/">https://www.jpcert.or.jp/</a> <a href="https://www.jpcert.or.jp/"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM0vr02ofv9s925keggcghlva2neFM"><div class="nodecontent">２ 仕事中のルール</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3tr05e1g31jodle38bpfjbm62bFM"><div class="nodecontent">電子メールの利用</div></li>
+	<li class="basic" id="FM2rtnkmhfr7qq29evbtc3nhi945FM"><div class="nodecontent">インターネットの利用</div></li>
+	<li class="basic" id="FM45j13982m0p333chsh82586gquFM"><div class="nodecontent">データのバックアップ</div></li>
+	<li class="basic" id="FM0k32gsaed3ajbs0icgarnqlu6dFM"><div class="nodecontent">クリアデスク・クリアスクリーン</div></li>
+	<li class="basic" id="FM6s2uom1lenbfbb7o41du7cfd6uFM"><div class="nodecontent">重要情報の持ち出し</div></li>
+	<li class="basic" id="FM18goqu5tnq962l4a9or59sjasaFM"><div class="nodecontent">入退室</div></li>
+	<li class="basic" id="FM59fuge0b9f6khrgkcbdclvp41hFM"><div class="nodecontent">電子媒体・書類の廃棄</div></li></ul></li>
+	<li class="col" id="FM5ago0tt8ql40riuh8i1f2tuuv1FM"><div class="nodecontent">３ 全社共通のルール</div>
+		<ul class="subexp">
+	<li class="basic" id="FM48f7vsn0hlokfs4ie9h6ejfn2bFM"><div class="nodecontent">私有情報機器の利用</div></li>
+	<li class="basic" id="FM31vjbdj4plpvih0ooc90qpek1oFM"><div class="nodecontent">クラウドサービスの利用</div></li></ul></li>
+	<li class="col" id="FM0b99km49scqkg653ikb2iut8jqFM"><div class="nodecontent">３ 従業員のみなさんへ</div>
+		<ul class="subexp">
+	<li class="basic" id="FM28k2p90eo9tot00b44mtbdmok3FM"><div class="nodecontent">従業員の守秘義務</div></li>
+	<li class="basic" id="FM1nnev05lmujvgc0ac0hc5c3j9rFM"><div class="nodecontent">事故が起きてしまったら</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM0c2iinjdgbi1qtvgko7sfeuc7aFM"><div class="nodecontent">  ◦付録3：</div>
+		<ul class="subexp">
+	<li class="col" id="FM03qtupeaqcmtfh7q8tpc9ldsmbFM"><div class="nodecontent"><a href="http://www.ipa.go.jp/files/000055518.xlsx">&lt;ツールA&gt;リスク分析シート（全5シート、79KB）excel </a> <a href="http://www.ipa.go.jp/files/000055518.xlsx"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="basic" id="FM4hojdhagdlhdmu1al8pt592c0qFM"><div class="nodecontent">情報資産台帳記入例</div></li>
+	<li class="basic" id="FM6se5j7u92ugpqikar4fc74jcs5FM"><div class="nodecontent">情報資産管理台帳</div></li>
+	<li class="col" id="FM3djjps1g5r1sggnvhlvnc31saqFM"><div class="nodecontent">脅威の状況</div>
+		<ul class="subexp">
+	<li class="col" id="FM14gkqk39sicccedviemr6ib0bfFM"><div class="nodecontent">書類</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3cgrvj8e53ks9bpstabe53383rFM"><div class="nodecontent">秘密書類の事務所からの盗難</div></li>
+	<li class="basic" id="FM5eb60qhv3jfqhrr4cmlci7bjisFM"><div class="nodecontent">秘密書類の外出先での紛失・盗難</div></li>
+	<li class="basic" id="FM0ao3mfckuu26g25dtophl408fuFM"><div class="nodecontent">情報搾取目的の内部不正による書類の不正持ち出し</div></li>
+	<li class="basic" id="FM24g80e2jq14sjjjrkkgpmdi26oFM"><div class="nodecontent">業務遂行に必要な情報が記載された書類の紛失</div></li></ul></li>
+	<li class="col" id="FM7svcn0nnruh5ic33aa8h0rgb3oFM"><div class="nodecontent">可搬電子媒体</div>
+		<ul class="subexp">
+	<li class="basic" id="FM12kr2s8c176cf7e2llp81jnqd2FM"><div class="nodecontent">秘密情報が格納された電子媒体の事務所からの盗難</div></li>
+	<li class="basic" id="FM57ajfaajrmcmlv0ja740f1c9nvFM"><div class="nodecontent">秘密情報が格納された電子媒体の外出先での紛失・盗難</div></li>
+	<li class="basic" id="FM3o3ctdi4g8fusqi9i5q3509rfqFM"><div class="nodecontent">情報搾取目的の内部不正による電子媒体の不正持ち出し</div></li>
+	<li class="basic" id="FM571qog8e365vp5o9cr87anr74nFM"><div class="nodecontent">業務遂行に必要な情報が記載された電子媒体の紛失</div></li></ul></li>
+	<li class="col" id="FM7ba7gmbjukq9898uu6liin02noFM"><div class="nodecontent">事務所PC</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2a5dtk9l80ihto7bq3h5ukt9odFM"><div class="nodecontent">情報搾取目的の事務所PCへのサイバー攻撃</div></li>
+	<li class="basic" id="FM0k1knqe8jlktn16e8kbfvu7sabFM"><div class="nodecontent">情報搾取目的の事務所PCでの内部不正</div></li>
+	<li class="basic" id="FM0jpcesv17pprv3kn2o77osd42fFM"><div class="nodecontent">事務所PCの故障による業務に必要な情報の喪失</div></li>
+	<li class="basic" id="FM7vdrt5saq0i5d95l7rd11lorj0FM"><div class="nodecontent">事務所PC内データがランサムウェアに感染して閲覧不可</div></li>
+	<li class="basic" id="FM1nc08f4hs5ei8ig9i9vt8bl030FM"><div class="nodecontent">不正送金を狙った事務所PCへのサイバー攻撃</div></li></ul></li>
+	<li class="col" id="FM5eq9bunro4a7u979p0p5iendijFM"><div class="nodecontent">モバイル機器</div>
+		<ul class="subexp">
+	<li class="basic" id="FM13m7mkgh3bn81kh6ed35v5869tFM"><div class="nodecontent">情報搾取目的でのモバイル機器へのサイバー攻撃</div></li>
+	<li class="basic" id="FM4kerhpnll2plnirni4l5b49gspFM"><div class="nodecontent">情報搾取目的の不正アプリをモバイル機器にインストール</div></li>
+	<li class="basic" id="FM7klanekhl5k84mma9u4agusdsoFM"><div class="nodecontent">秘密情報が格納されたモバイル機器の紛失・盗難</div></li></ul></li>
+	<li class="col" id="FM0ruv338apif2k8hdahaq95ft8pFM"><div class="nodecontent">社内サーバー</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7t0dur6ecgl6qr9m2hfqif6ipaFM"><div class="nodecontent">情報搾取目的の社内サーバーへのサイバー攻撃</div></li>
+	<li class="basic" id="FM0uj41mt85srg8642lp92bfvaboFM"><div class="nodecontent">情報搾取目的の社内サーバーでの内部不正</div></li>
+	<li class="basic" id="FM25lp3phcdcr7thkbjqcirt9tb9FM"><div class="nodecontent">社内サーバーの故障による業務に必要な情報の喪失</div></li></ul></li>
+	<li class="col" id="FM3fcj5s9hs5c4koqdoadlhrr0msFM"><div class="nodecontent">クラウド</div>
+		<ul class="subexp">
+	<li class="basic" id="FM063a1qop7fconeiuqnlb6gro78FM"><div class="nodecontent">安易なパスワードの悪用によるアカウントの乗っ取り</div></li>
+	<li class="basic" id="FM2i1rpi76n3er3msh6kjnuo8un7FM"><div class="nodecontent">バックアップを怠ることによる業務に必要な情報の喪失</div></li></ul></li></ul></li>
+	<li class="col" id="FM1f92vmbat16ejk2tnv94e3k11sFM"><div class="nodecontent">対策状況チェック</div>
+		<ul class="subexp">
+	<li class="col" id="FM00mj3bvst6n6u80opf1nnpi5ucFM"><div class="nodecontent"> (1) 組織的セキュリティ対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM73ljur61mis0dpc68gl2gjhjiaFM"><div class="nodecontent">経営者の主導で情報セキュリティの方針を示していますか？</div></li>
+	<li class="basic" id="FM16cn5g058kp9dsvg471n27mj2vFM"><div class="nodecontent">情報セキュリティの方針に基づき、具体的な対策の内容を明確にしていますか？</div></li>
+	<li class="basic" id="FM7os7obh5ak9hm2toe856cm1josFM"><div class="nodecontent">情報セキュリティ対策を実施するための体制を整備していますか？</div></li>
+	<li class="basic" id="FM33foro08bbr637t8438a7u5me7FM"><div class="nodecontent">情報セキュリティ対策のためのリソース（人材、費用）の割当を行っていますか？</div></li></ul></li>
+	<li class="col" id="FM3p568477qjjoaqcjd4is4sdsu1FM"><div class="nodecontent">(2) 人的セキュリティ対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6dqcluh8g062p43j8uohicmgvkFM"><div class="nodecontent">秘密情報を扱う全ての者（パートタイマー、アルバイト、派遣社員、顧問、社内に常駐する委託先要員等を含む）に就業規則や契約等を通じて秘密保持義務を課していますか？</div></li>
+	<li class="basic" id="FM15o2kbg3rg93b6tepb3os8sqttFM"><div class="nodecontent">従業員の退職に際しては、退職後の秘密保持義務への合意を求めていますか？</div></li>
+	<li class="basic" id="FM3dlfrg00n65m5u6lil4vep9aqgFM"><div class="nodecontent">会社の秘密情報や個人情報を扱うときの規則や、関連法令による罰則に関して全従業員に説明していますか？</div></li></ul></li>
+	<li class="col" id="FM7dvtbbpsjhj1skh2fvfco59ejfFM"><div class="nodecontent">(3) 情報資産管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5ugvol64h2h31c587nm2b2m8aeFM"><div class="nodecontent">管理を必要とする情報資産は、すべて情報資産管理台帳に記載することを定めていますか？</div></li>
+	<li class="basic" id="FM3qaa8s7uk8o0psr3id2509r7ioFM"><div class="nodecontent">秘密情報は業務上必要な範囲でのみ利用を認めていますか？</div></li>
+	<li class="basic" id="FM1ioan971jpoj74tg4162o4cf9dFM"><div class="nodecontent">秘密情報の対象となるファイルやデータを丸秘マークや格付け表示等で識別可能とすることを定めていますか？</div></li>
+	<li class="basic" id="FM54ucnb1vgsetouhohf29u5rgtdFM"><div class="nodecontent">秘密情報を社外へ持ち出す時はデータを暗号化したり、パスワード保護をかけたりするなどの盗難・紛失対策を定めていますか？</div></li>
+	<li class="basic" id="FM5dumhmgtu76ld8qaog499b85h6FM"><div class="nodecontent">秘密情報を机の上に放置せず施錠保管するなどして、のぞき見されたり紛失しないようにしていますか？</div></li>
+	<li class="basic" id="FM7sgcabqu1ei205hsld28toordfFM"><div class="nodecontent">情報資産のバックアップに関する手順を定め、手順が遵守されていることを確認していますか？</div></li>
+	<li class="basic" id="FM0875s5hnv5v9qpldubnshrdp3nFM"><div class="nodecontent">秘密情報の入ったパソコンや紙を含む記録媒体を廃棄する場合、ゴミとして処分する前に、データの完全消去用のツールを用いたり、物理的に破壊したりすることで、データを復元できないようにすることを定めていますか？</div></li></ul></li>
+	<li class="col" id="FM23ddo4m1a7680j5pipg2cch5qoFM"><div class="nodecontent">(4) マイナンバー対応</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4f56ajq816oaci5pr6jj96ro12FM"><div class="nodecontent">特定個人情報の取扱ルール（管理担当者の割当て、関連規程の整備、記録の保存、定期的点検）が定められていますか？</div></li>
+	<li class="basic" id="FM7h18opbqfph2glsmm4cbpgqbk4FM"><div class="nodecontent">特定個人情報に関する漏えい等の事案に備えた報告連絡体制が整備されていますか？</div></li>
+	<li class="basic" id="FM44omuimvipafneb246767lidofFM"><div class="nodecontent">特定個人情報の保護のための安全管理措置（人的、物理的、技術的のそれぞれ）を行うことが定められていますか？</div></li></ul></li>
+	<li class="col" id="FM5fo0fe927k2p01ap20t5mngmr5FM"><div class="nodecontent"> (5) アクセス制御と認証</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4q2qrar83949fjn9hfpq7u081cFM"><div class="nodecontent">業務で利用するすべてのサーバに対して、アクセス制御の方針が定められていますか？</div></li>
+	<li class="basic" id="FM6tn11r1rku14pmjq5hs5nhi71tFM"><div class="nodecontent">サーバのアクセス権限は、従業員の退職や異動に応じて随時更新され、定期的なレビューを通じてその適切性が検証されていますか？</div></li>
+	<li class="basic" id="FM3qlh2vu4s1dhqopgck3a5uuq52FM"><div class="nodecontent">情報を社外のサーバ等に保存したり、グループウェアやファイル受渡サービスなどを用いたりする場合は、アクセスを許可された人以外が閲覧できることのないよう、適切なアクセス制御を行うことを定めていますか？</div></li>
+	<li class="basic" id="FM0di65v6i2c60erqgj064htp14bFM"><div class="nodecontent">サーバで用いるパスワードは、適切なもののみが受け入れられる機能を通じて設定されていますか？</div></li>
+	<li class="basic" id="FM21ssf4dhu3k46tep6smt0qa0ceFM"><div class="nodecontent">業務で利用する暗号化機能及び暗号化に関するアプリケーションは、その運用方針が明確に定められていますか？</div></li></ul></li>
+	<li class="col" id="FM46pb216qfrf1lkieo7prsnissnFM"><div class="nodecontent"> (6) 物理的セキュリティ対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0029qt744n3m72o05rpfp0srmiFM"><div class="nodecontent">業務を行う場所に、第三者が許可無く立入できないようにするための対策（物理的に区切る、見知らぬ人には声をかける、等）が講じられていますか？</div></li>
+	<li class="basic" id="FM621hnfuhl72h89ejd0g8i7v60bFM"><div class="nodecontent">最終退出者は事務所を施錠し退出の記録（日時、退出者）を残すなどのように、事務所の施錠を管理していますか？</div></li>
+	<li class="basic" id="FM1r9l5if9jsdti3467qd3hf85s6FM"><div class="nodecontent">高いセキュリティを確保する区域には、許可された者以外は接近できないような保護措置がなされていますか？</div></li>
+	<li class="basic" id="FM7g6vsnouh7kn90ifsu00dlu3ckFM"><div class="nodecontent">秘密情報を保管および扱う場所への個人所有のパソコン・記録媒体等の持込み・利用は禁止されていますか？</div></li></ul></li>
+	<li class="col" id="FM3b973ca9bmmoqa5h265vebdoh0FM"><div class="nodecontent"> (7) IT機器利用</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3i8tn3fgt02pbl01clbcc9jq6rFM"><div class="nodecontent">セキュリティ更新を自動的に行うなどにより、常にソフトウェアを安全な状態にすることを定めていますか？</div></li>
+	<li class="basic" id="FM3sq45et3g2q5acivn1tmljh38iFM"><div class="nodecontent">ウイルス対策ソフトウェアが提供されている製品については、用途に応じて導入し、定義ファイルを常に最新の状態にすることを定めていますか？</div></li>
+	<li class="basic" id="FM300iccd0s50r7vdv472aeep086FM"><div class="nodecontent">業務で利用するIT機器で用いるパスワードに関するルール（他人に推測されにくいものを選ぶ、機器やサービスごとに使い分ける、他人にわからないように管理する、等）ことを定めていますか？</div></li>
+	<li class="basic" id="FM2f4lpuih54cfhgkg094qhdtd55FM"><div class="nodecontent">業務で利用する機器が誰かに勝手に使われないようにするための措置（離席時にパスワード付きのスクリーンセーバーが動作する、持ち運び可能な機器は施錠できる場所に格納する、等）を定めていますか？</div></li>
+	<li class="basic" id="FM04h0icog16rahtcrqo6vkpqm64FM"><div class="nodecontent">業務で利用するIT機器の設定について、不要な機能は無効にする、セキュリティを高める機能を有効にするなどの見直しを行うことを定めていますか？</div></li>
+	<li class="basic" id="FM1p4givi47qus45ls1r9capl2osFM"><div class="nodecontent">社外で業務を行う場合のルールを定めていますか？</div></li>
+	<li class="basic" id="FM2shphk496isp4psqoe3a3sljbfFM"><div class="nodecontent">業務での個人所有機器の利用について、禁止しているか、利用する場合のルールを定めていますか？</div></li>
+	<li class="basic" id="FM428t9tv7j7mqrs6956h3f0b4u4FM"><div class="nodecontent">受信した電子メールが不審かどうかを確認することを求めていますか？</div></li>
+	<li class="basic" id="FM4sj2648vc79lbl9q7l3b0cq91iFM"><div class="nodecontent">電子メールアドレスの漏えい防止のためのBCC利用ルールを定めていますか？</div></li>
+	<li class="basic" id="FM78dipa1vidfi6e2baskjcp5rimFM"><div class="nodecontent">インターネットバンキングやオンラインショップなどを利用する場合に偽サイトにアクセスしないための対策を定めていますか？</div></li></ul></li>
+	<li class="col" id="FM59ruremfhkdjlssfmatchrauodFM"><div class="nodecontent"> (8) IT基盤運用管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0pe7n628uka156gthma9kc87irFM"><div class="nodecontent">IT機器と台帳との棚卸（実機確認）を行うとともに、社内ネットワークに許可なく接続された機器や無線LAN基地局がないことを確認していますか？</div></li>
+	<li class="basic" id="FM4u2rmlcvc60on3hrr9ik2cbbecFM"><div class="nodecontent">サーバで利用するアプリケーションは、ブラックリスト方式（利用してはいけないものを明示）またはホワイトリスト方式（利用してよいものを明示）のいずれかで特定していますか？</div></li>
+	<li class="basic" id="FM1sj8jj8ppvfb3pocbbt7nnodraFM"><div class="nodecontent">業務で利用するすべてのサーバに対して、脆弱性及びマルウェアからの保護のための対策を講じていますか？</div></li>
+	<li class="basic" id="FM2bvk39hsqch2np5duc1jt0oki6FM"><div class="nodecontent">サーバで用いた機器の廃棄の手順を定めていますか？</div></li>
+	<li class="basic" id="FM39qb13k1esmk4tem9vv5cllop0FM"><div class="nodecontent">業務で利用するすべてのサーバやネットワーク機器に対して、必要性に応じてイベントログや通信ログの取得及び保存の手順を定めた上で、定期的にレビューしていますか？</div></li>
+	<li class="basic" id="FM5ho8p0kvr70dv31uhlvtggoi0kFM"><div class="nodecontent">サーバを対象とする監査を行うことを定めていますか？</div></li>
+	<li class="basic" id="FM1cm8bd97jlaiugdvr8la8i5hi6FM"><div class="nodecontent">ファイアウォールなど、外部からの攻撃の影響を防ぐための対策を導入していますか？</div></li>
+	<li class="basic" id="FM476tc8l8q7pfa3gt6tobb6d16tFM"><div class="nodecontent">業務で使っているネットワーク機器のパスワードを初期状態のまま使わず、推測できないパスワードを設定して運用していますか？</div></li>
+	<li class="basic" id="FM06bevlbdav7kkippfs6c54041iFM"><div class="nodecontent">クラウドサービスを利用する場合は、費用だけでなく、情報セキュリティや信頼性に関する仕様を考慮して選定していますか？</div></li>
+	<li class="basic" id="FM5oq2vi8181q1j2eh480qvag3skFM"><div class="nodecontent">最新の脅威や攻撃についての情報収集を行い、必要に応じて社内で共有していますか？</div></li></ul></li>
+	<li class="col" id="FM7c46hnocoe390dssg1tgs4sldmFM"><div class="nodecontent"> (9) システム開発及び保守</div>
+		<ul class="subexp">
+	<li class="basic" id="FM73f6jgts7939j4qg6ctuv1mqclFM"><div class="nodecontent">情報システムの開発を行う場合、開発環境と運用環境とを分離していますか？</div></li>
+	<li class="basic" id="FM6617pefopt5hqsdro0kkardtvtFM"><div class="nodecontent">セキュアな開発を行うための手続きを定めていますか？</div></li>
+	<li class="basic" id="FM6q6unirk6b1qakp7fnqh2anfrfFM"><div class="nodecontent">情報システムの保守を行う場合、既知の脆弱性が存在する状態で情報システムを運用しないようにするための対策を講じていますか？</div></li></ul></li>
+	<li class="col" id="FM7h1mldbttci24i24pl3eelles5FM"><div class="nodecontent"> (10) 外部委託管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM13jd3g5el39ng9rp6mkjuthchaFM"><div class="nodecontent">契約書に秘密保持（守秘義務）、漏洩した場合の賠償義務、再委託の制限についての項目を盛り込むなどのように、委託先が遵守すべき事項について具体的に規定していますか？</div></li>
+	<li class="basic" id="FM5u7hldt0b3u2e41oh55l95ak8iFM"><div class="nodecontent">委託先との秘密情報の受渡手順を定めていますか？</div></li>
+	<li class="basic" id="FM3q0a68bofickt0meujbdes33amFM"><div class="nodecontent">委託先に提供した秘密情報の廃棄または消去の手順を定めていますか？</div></li></ul></li>
+	<li class="col" id="FM7hk6f9rusbs9l0nnulfisc5rmvFM"><div class="nodecontent"> (11) 情報セキュリティインシデント対応ならびに事業継続管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2dlkp6s8kvl6q3btp2jcd30bmhFM"><div class="nodecontent">秘密情報の漏えいや紛失、盗難があった場合の対応手順書を作成するなどのように、事故の発生に備えた準備をしていますか？</div></li>
+	<li class="basic" id="FM22057glg6rg327j1mlrvd9sg3sFM"><div class="nodecontent">インシデントの発生に備えた証拠情報の収集手順を定め、運用していますか？</div></li>
+	<li class="basic" id="FM1ujpu5mub3q0d11206iios8294FM"><div class="nodecontent">事業継続計画における情報セキュリティ対策を定めていますか？</div></li></ul></li></ul></li>
+	<li class="basic" id="FM6vc0dc944bu01hi7uomn1r2jljFM"><div class="nodecontent">診断結果</div></li></ul></li>
+	<li class="col" id="FM559l7ph2mg8ukm7aqbvrg2c0srFM"><div class="nodecontent"><a href="https://www.ipa.go.jp/files/000055794.docx">&lt;ツールB&gt;情報セキュリティポリシーサンプル【2016年11月30日IPA】</a> <a href="https://www.ipa.go.jp/files/000055794.docx"><img src="Sec-01-02-20%20中小企業の情報セキュリティ対策ガイドライン（第2.1版）.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+		<ul class="subexp">
+	<li class="col" id="FM78cckru470s5moplt3qo38o7toFM"><div class="nodecontent">組織的対策（基本方針）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0c5jh866etab84lt4gnol4m0doFM"><div class="nodecontent">情報セキュリティ基本方針を当社のホームページで公表する。/情報セキュリティ基本方針を本社各部署に掲示し従業員及び関係者に周知する。/情報セキュリティ基本方針を顧客の要請の応じ適宜に公表する。</div></li>
+	<li class="basic" id="FM7ieggoii2290pggdbn94rp6bpqFM"><div class="nodecontent">1.情報セキュリティ基本方針</div></li>
+	<li class="basic" id="FM5huikj14g6bdcb98836pbseujjFM"><div class="nodecontent">2. 個人番号及び特定個人情報の適正な取扱いに関する基本方針</div></li>
+	<li class="basic" id="FM45o1hdg8v8pg5tfk9tc5o1s3b9FM"><div class="nodecontent">3.安全管理措置に関する事項</div></li>
+	<li class="basic" id="FM07q1lnb0g12mjebh4hubo3cpueFM"><div class="nodecontent">4.委託の取り扱い</div></li>
+	<li class="basic" id="FM4uvsd3dsgcnontcqpe5b6q5avvFM"><div class="nodecontent">5.継続的改善</div></li>
+	<li class="basic" id="FM1l8qh7u6vqb97vbduajf3qui4mFM"><div class="nodecontent">6.特定個人情報等の開示</div></li></ul></li>
+	<li class="col" id="FM1e2brllqlpfj7feglc9roeufqhFM"><div class="nodecontent">組織的対策（当社全体）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4l06ff3d34rqlktp77glmkcfv0FM"><div class="nodecontent">情報セキュリティ対策活動を推進するための組織として、情報セキュリティ委員会を設置する。情報セキュリティ委員会は以下の構成とし、情報セキュリティ対策状況の把握、情報セキュリティ対策に関する指針の策定・見直し、情報セキュリティ対策に関する情報の共有を実施する。</div></li>
+	<li class="basic" id="FM4od5ukb88ulfubvhs5n9v7pdvpFM"><div class="nodecontent">1.情報セキュリティのための組織</div></li>
+	<li class="basic" id="FM1mc46bkhqu2e7j3mdn96tq4m5cFM"><div class="nodecontent">2.情報セキュリティ取組みの監査・点検/点検</div></li>
+	<li class="basic" id="FM1n8ddih5bpjltsh6fa9ifs4724FM"><div class="nodecontent">3.情報セキュリティに関する情報共有</div></li></ul></li>
+	<li class="col" id="FM2rrf6hrsksuvh35cj53l5a93amFM"><div class="nodecontent">人的対策（全従業員（役員、社員、派遣社員、パート・アルバイトを含む））</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6mm8n0t9cgpukk1llira1aoukhFM"><div class="nodecontent">1.雇用条件</div></li>
+	<li class="basic" id="FM7q5t3e0tngipmrhjamdvt1c87nFM"><div class="nodecontent">2.取締役及び従業員の責務</div></li>
+	<li class="basic" id="FM1mfmbnf5dpc1h6jdmhjfbh048bFM"><div class="nodecontent">3.雇用の終了</div></li>
+	<li class="basic" id="FM1ude813eqiduintksoe5nneikoFM"><div class="nodecontent">4.情報セキュリティ教育</div></li>
+	<li class="col" id="FM4boac4f3rir27hevgds19jvr5iFM"><div class="nodecontent">5.人材育成</div>
+		<ul class="subexp">
+	<li class="basic" id="FM06n10cqik82odha2sqr67sespjFM"><div class="nodecontent">＜情報セキュリティに関わる推奨資格＞</div></li></ul></li></ul></li>
+	<li class="col" id="FM7vf2agj7cammu3beimi0npqcbmFM"><div class="nodecontent">情報資産管理（当社事業に必要で価値がある情報及び個人情報）</div>
+		<ul class="subexp">
+	<li class="col" id="FM340af1vkagoek600h62k2n6mdsFM"><div class="nodecontent">1.情報資産の管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1emtovmc6qh7t41jqoiel53cpsFM"><div class="nodecontent">1.1情報資産の特定と重要度の評価</div></li>
+	<li class="basic" id="FM0ud9ull8p7jh51d170jb0k7o8sFM"><div class="nodecontent">1.2情報資産の分類と表示</div></li>
+	<li class="basic" id="FM59pqh4r74bkg7cllotkm10578hFM"><div class="nodecontent">1.3情報資産の管理責任者</div></li>
+	<li class="basic" id="FM1ggkklsdcktku47nlop5r6d1f8FM"><div class="nodecontent">1.4情報資産の利用者</div></li></ul></li>
+	<li class="basic" id="FM3j6osbl6fjhjovhkmvi9vq0ir9FM"><div class="nodecontent">2.情報資産の社外持ち出し</div></li>
+	<li class="col" id="FM27ebvrr8oalavseu0f00dnv35qFM"><div class="nodecontent">3.媒体の処分</div>
+		<ul class="subexp">
+	<li class="basic" id="FM478kjunh7ppta0a8r12nkk78hoFM"><div class="nodecontent">3.1媒体の廃棄</div></li>
+	<li class="basic" id="FM28nelj6aasqmkdbes761lsqvt6FM"><div class="nodecontent">3.2媒体の再利用</div></li></ul></li>
+	<li class="col" id="FM2fnlhie70hs88bqmr6mk61irgaFM"><div class="nodecontent">4.バックアップ</div>
+		<ul class="subexp">
+	<li class="basic" id="FM670soofadnnn0nchm07tim34euFM"><div class="nodecontent">4.1バックアップ取得対象</div></li>
+	<li class="basic" id="FM1e4i7mb1e02s9g4o9b7utlparvFM"><div class="nodecontent">4.2バックアップ媒体の取扱い</div></li>
+	<li class="basic" id="FM4gjsheqapq4j2g8tbbsf65vp5nFM"><div class="nodecontent">4.3クラウドサービスを利用したバックアップ</div></li></ul></li></ul></li>
+	<li class="col" id="FM7ott434i5ruqgknlfd9b5mhfdfFM"><div class="nodecontent">マイナンバー対応（特定個人情報（マイナンバーを内容に含む個人情報））</div>
+		<ul class="subexp">
+	<li class="col" id="FM12nmudum8fmurauds2i2jldqc0FM"><div class="nodecontent">1.総則</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3lg1ksv4c9c6a21m76969t1qtdFM"><div class="nodecontent">1.1目的</div></li>
+	<li class="basic" id="FM1fm32a5vp1fsrfme4b8f1a2g1iFM"><div class="nodecontent">1.2定義</div></li></ul></li>
+	<li class="col" id="FM72t6op1s60btj9u52eb1p8rdghFM"><div class="nodecontent">2.特定個人情報等の取り扱い</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0uq1dfb4as4dik0l1gicmdvl6uFM"><div class="nodecontent">2.1利用目的の特定</div></li>
+	<li class="basic" id="FM3fhutc3mecgjmfk7q0pp4jnktvFM"><div class="nodecontent">2.2取得に際しての利用目的の通知等</div></li>
+	<li class="basic" id="FM497okf19bp4fk2in4shas767vcFM"><div class="nodecontent">2.3取得の制限</div></li>
+	<li class="basic" id="FM61hkl509276v2ve9t25bum9papFM"><div class="nodecontent">2.4個人番号の提供の求めの制限</div></li>
+	<li class="basic" id="FM5vf69b2t34difjacar7pu1vic7FM"><div class="nodecontent">2.5本人確認</div></li>
+	<li class="basic" id="FM3ium0gp3f0ba6mvsasfjru0gtbFM"><div class="nodecontent">2.6利用目的外の利用の制限</div></li>
+	<li class="basic" id="FM23nvf48nh9t2jjka5mtdaa4644FM"><div class="nodecontent">2.7特定個人情報ファイルの作成の制限</div></li>
+	<li class="basic" id="FM4cqk096dep3p6cu9k9ruhjqn91FM"><div class="nodecontent">2.8特定個人情報等の保管</div></li>
+	<li class="basic" id="FM2b7pni8ormtdcdrg66mtg71oe0FM"><div class="nodecontent">2.9データ内容の正確性の確保</div></li>
+	<li class="basic" id="FM0i2pqta7o9udvpltj6vnq3r3euFM"><div class="nodecontent">2.10特定個人情報等の提供</div></li>
+	<li class="basic" id="FM223a2d5albk821lb5pq20ndp4aFM"><div class="nodecontent">2.11特定個人情報等の削除・廃棄</div></li>
+	<li class="basic" id="FM3o4bssrd3osmqe809rnvf6at9uFM"><div class="nodecontent">2.12特定個人情報等を誤って収集した場合の措置</div></li>
+	<li class="basic" id="FM267kl4fvjrs1is48nsp3getl77FM"><div class="nodecontent">2.13安全管理措置</div></li></ul></li>
+	<li class="col" id="FM15cjmhifs9ta9dh6jahndpcaljFM"><div class="nodecontent">3. 組織及び体制</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5av90lqiotu37vh2qdg5k4asspFM"><div class="nodecontent">3.1事務取扱担当者・責任者</div></li>
+	<li class="basic" id="FM7ohir1msldq7g38krhgljrpidqFM"><div class="nodecontent">3.2苦情対応</div></li>
+	<li class="basic" id="FM3mg73vm9g99ljr8svfrd3gos5uFM"><div class="nodecontent">3.3従業員の義務</div></li></ul></li>
+	<li class="col" id="FM60m45cjo5ht07chmk91a28ghadFM"><div class="nodecontent">4.委託の取扱い</div>
+		<ul class="subexp">
+	<li class="basic" id="FM723r3n6gqdcbi41kbdo1og02asFM"><div class="nodecontent">4.1委託</div></li>
+	<li class="basic" id="FM636jbnl04lhttfmb94uork0vsaFM"><div class="nodecontent">4.2再委託</div></li></ul></li>
+	<li class="col" id="FM6va2jmtv3bmehrr7dplgeht4m7FM"><div class="nodecontent">5.安全管理措置</div>
+		<ul class="subexp">
+	<li class="col" id="FM1og04umc7i7r14c543eo4phv50FM"><div class="nodecontent">5.1組織的安全管理措置</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4el2pd7kec208pvekf5l3can6rFM"><div class="nodecontent">5.1.2取扱規程等に基づく運用</div></li>
+	<li class="basic" id="FM6di320mc7lo8nrdrgqbe3a1j6tFM"><div class="nodecontent">5.1.2取扱規程等に基づく運用</div></li>
+	<li class="basic" id="FM66fg5jvolsn76iqa363klutbguFM"><div class="nodecontent">5.1.3取扱状況を確認する手段の整備</div></li>
+	<li class="basic" id="FM11a36ol8v7lhq6tlkb4v0s4rcmFM"><div class="nodecontent">5.1.4情報漏えい等事案に対応する体制の整備</div></li></ul></li>
+	<li class="basic" id="FM4idhpvutvvhl5g532per7mrf4cFM"><div class="nodecontent">5.2人的安全管理措置</div></li>
+	<li class="col" id="FM2bnsrq64i77mpi62qhov7sphh5FM"><div class="nodecontent">5.3物理的安全管理措置</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5hm6816ufem3sou1ulr1skll3iFM"><div class="nodecontent">5.3.1特定個人情報等を取り扱う領域の管理</div></li>
+	<li class="basic" id="FM2hu6f5dq3d90a9tcbv4l3gt1c5FM"><div class="nodecontent">5.3.2ＩＴ機器及び電子媒体等の盗難等の防止</div></li>
+	<li class="basic" id="FM0l8edkltha824pcnnekkqi0d7iFM"><div class="nodecontent">5.3.3電子媒体等を持ち出す場合の漏えい等の防止</div></li>
+	<li class="basic" id="FM5iqlokdtmbqvs3tohe7n4o8s95FM"><div class="nodecontent">5.3.4個人番号の削除、機器及び電子媒体等の廃棄</div></li></ul></li>
+	<li class="col" id="FM34oudnv86tvt1b0rdgm599acoeFM"><div class="nodecontent">5.4技術的安全管理措置</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6tq8f2rsdeh4m761r3e1q1h3s2FM"><div class="nodecontent">5.4.1アクセス制御</div></li>
+	<li class="basic" id="FM3qauje2js73rgsjs6d3rhtteejFM"><div class="nodecontent">5.4.2アクセス者の識別と認証</div></li>
+	<li class="basic" id="FM5o60k6drsqu5dk934m2hmug4t8FM"><div class="nodecontent">5.4.3外部の不正アクセス等の防止</div></li>
+	<li class="basic" id="FM7522tlsur1ebh9v6bmt8v5abojFM"><div class="nodecontent">5.4.4情報漏えい等の防止</div></li></ul></li></ul></li>
+	<li class="col" id="FM0qadlgnrhifdsclmhp5lfqf3pkFM"><div class="nodecontent">6.特定個人情報等の開示、訂正等、利用停止等</div>
+		<ul class="subexp">
+	<li class="basic" id="FM38f0r95gieqbb4cti81hvhgnaqFM"><div class="nodecontent">6.1特定個人情報等の開示等</div></li>
+	<li class="basic" id="FM2gogieqjdhi6gr7am47nr0fkdlFM"><div class="nodecontent">6.2特定個人情報等の訂正等</div></li>
+	<li class="basic" id="FM3oljtgkq2rdirad9snqc3cbr2nFM"><div class="nodecontent">6.3特定個人情報等の利用停止等</div></li></ul></li></ul></li>
+	<li class="col" id="FM4s1tth2kfg1mgs17piuphjin1eFM"><div class="nodecontent">アクセス制御及び認証（情報資産の利用者及び情報処理施設）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM62cv15hkmd7fofmps6b3qjeukmFM"><div class="nodecontent">1.アクセス制御方針</div></li>
+	<li class="basic" id="FM5hded7f8g25k3kee057rdn712vFM"><div class="nodecontent">2.利用者の認証</div></li>
+	<li class="basic" id="FM53qcp162m701v5aod7dipm6qc9FM"><div class="nodecontent">3.利用者アカウントの登録</div></li>
+	<li class="basic" id="FM1p6mlp3iqri5sb22p5pcc9aug3FM"><div class="nodecontent">4.利用者アカウントの管理</div></li>
+	<li class="basic" id="FM5e5asvgfjjbfr1cl14ehlj9shpFM"><div class="nodecontent">5.パスワードの設定</div></li>
+	<li class="basic" id="FM2f74mkhfc8237vqm1s0fbcpojqFM"><div class="nodecontent">6.従業員以外の者に対する利用者アカウントの発行</div></li>
+	<li class="basic" id="FM1a5ctlcgeath3nc3d3um78853vFM"><div class="nodecontent">7.機器の識別による認証</div></li>
+	<li class="basic" id="FM05q20m0j3o9t23npb4btbljgshFM"><div class="nodecontent">8.端末のタイムアウト機能</div></li>
+	<li class="col" id="FM4ib4ci82f0jq105bj2fh6i2pkfFM"><div class="nodecontent">9.標準設定等</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6voqncvcajdvth6ai3tfg57nn7FM"><div class="nodecontent">9.1アクセス制御対象情報システム及びアクセス制御方法</div></li>
+	<li class="basic" id="FM0j2cjagbu5erb1ig2bjkftvr77FM"><div class="nodecontent">9.2利用者認証方法</div></li>
+	<li class="basic" id="FM2n3eidi1n79jijpl78o4t8ri1oFM"><div class="nodecontent">9.3利用者アカウント・パスワードの条件</div></li>
+	<li class="basic" id="FM0he1ufesnni6smt7n9hh0rstnnFM"><div class="nodecontent">9.4機器の認証方法</div></li></ul></li></ul></li>
+	<li class="col" id="FM2ngm7dpjcp2gkg94gojgp7kjpoFM"><div class="nodecontent">物理的対策（情報処理設備が設置される領域）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM52upg6cd3267sojakhn4ohu8lqFM"><div class="nodecontent">1.セキュリティ領域の設定</div></li>
+	<li class="basic" id="FM61q404uqnn5josuce5jgcj007oFM"><div class="nodecontent">2.関連設備の管理</div></li>
+	<li class="basic" id="FM0h3mbcvuveud9kdkp098pge23lFM"><div class="nodecontent">3.セキュリティ領域内注意事項</div></li>
+	<li class="basic" id="FM7b1jvcd967n6t90476h5273oeiFM"><div class="nodecontent">4.搬入物の受け渡し</div></li></ul></li>
+	<li class="col" id="FM2sjj79vsl5k8el9qoq6v678egeFM"><div class="nodecontent">ＩＴ機器利用（業務で利用する情報処理設備・機器）</div>
+		<ul class="subexp">
+	<li class="col" id="FM0rfkndea5n74653m7qh26sjclcFM"><div class="nodecontent">1.ソフトウェアの利用 </div>
+		<ul class="subexp">
+	<li class="basic" id="FM5ni8jrqpau61brcjoru54s920hFM"><div class="nodecontent">1.1標準ソフトウェア</div></li>
+	<li class="basic" id="FM0gdn4is1kg033b33mo8v8bkgnaFM"><div class="nodecontent">1.2ソフトウェアの利用制限</div></li>
+	<li class="basic" id="FM07erabai7vpqbkcnmk5gsi9f2eFM"><div class="nodecontent">1.3ソフトウェアのアップデート</div></li>
+	<li class="col" id="FM3poruqucg2i0am3ssp6dnvjbf8FM"><div class="nodecontent">1.4ウイルス対策ソフトウェアの利用</div>
+		<ul class="subexp">
+	<li class="basic" id="FM38qpj1pcaf7gf2qf0nfbnhifh2FM"><div class="nodecontent">1.4.1ウイルス検知</div></li>
+	<li class="basic" id="FM3rfjhhu17s21pqcbmd037rh6f1FM"><div class="nodecontent">1.4.2ウイルス対策ソフト定義ファイルの更新</div></li>
+	<li class="basic" id="FM58u1dpmminl1hmrr4to00hcmv5FM"><div class="nodecontent">1.4.3社外機器のLAN接続</div></li></ul></li>
+	<li class="basic" id="FM1foovqle4idvrdljpoa7cgfeoqFM"><div class="nodecontent">1.5ウイルス対策の啓発</div></li></ul></li>
+	<li class="basic" id="FM6923d1882fqu9lfdkhjb61h4tnFM"><div class="nodecontent">2.ＩＴ機器の利用</div></li>
+	<li class="col" id="FM1156jb5rrqrevum6uimhsjqffnFM"><div class="nodecontent">3.クリアデスク・クリアスクリーン</div>
+		<ul class="subexp">
+	<li class="basic" id="FM43oj3hd1h1c5g1bn07pbmmdameFM"><div class="nodecontent">3.1クリアデスク</div></li>
+	<li class="basic" id="FM6iaf056b8hlsitnatujgh7bm81FM"><div class="nodecontent">3.2クリアスクリーン</div></li></ul></li>
+	<li class="col" id="FM5vrmj0ccrr62vi38femf4kqr5vFM"><div class="nodecontent">4.インターネットの利用</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1np337omfivrbjsmrr314hncaeFM"><div class="nodecontent">4.1ウェブ閲覧</div></li>
+	<li class="col" id="FM0t8neqmrrbkd3cp814s03fgkdtFM"><div class="nodecontent">4.2オンラインサービス</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1papqd8fp4agobv1k2brj8ifd4FM"><div class="nodecontent">＜インターネットバンキング・電子決済＞</div></li>
+	<li class="basic" id="FM3fjhailakkts1rgt5kvc854vt3FM"><div class="nodecontent">＜オンラインストレージ＞</div></li></ul></li>
+	<li class="basic" id="FM1jcrv6e4eea9p9n6gb6frb9pliFM"><div class="nodecontent">4.3ＳＮＳの利用</div></li>
+	<li class="col" id="FM1sm6gh5tnclfd5tarenuavthtlFM"><div class="nodecontent">4.4電子メールの利用</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3n2feb7ok09vc29sdt73tuc4i3FM"><div class="nodecontent">＜誤送信防止＞</div></li>
+	<li class="basic" id="FM1uns4eh20ekar8k3isd84lnbjcFM"><div class="nodecontent">＜メールアドレス漏えい防止＞</div></li>
+	<li class="basic" id="FM692pjc6agg2niju0bh31t8rgd9FM"><div class="nodecontent">＜傍受による漏えい防止＞</div></li>
+	<li class="basic" id="FM74g8lm0eoo94dtiee26ghp93ibFM"><div class="nodecontent">＜クラウド型メールの利用＞</div></li>
+	<li class="basic" id="FM72g2cvmhfqbidefn2j6pu1a0o4FM"><div class="nodecontent">＜禁止事項＞</div></li></ul></li>
+	<li class="basic" id="FM6h3ckam30uhjj450dk7lfckptkFM"><div class="nodecontent">4.5ウイルス感染の防止</div></li>
+	<li class="col" id="FM7e8i3q9t30njgqhvolbg7dhnthFM"><div class="nodecontent">5.私有ＩＴ機器・電子媒体の利用</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2rntjkd7p9npn8k9rbv9skdtf8FM"><div class="nodecontent">5.1利用開始時</div></li>
+	<li class="col" id="FM0fict6pmkh0um28rfbb30hd029FM"><div class="nodecontent">5.2利用期間中</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0d7e03feearlustp6q3fsbq2fdFM"><div class="nodecontent">5.2.1社内での利用</div></li></ul></li>
+	<li class="basic" id="FM6o08gervoudo4p47s634l0h9u3FM"><div class="nodecontent">5.3利用終了時</div></li></ul></li>
+	<li class="col" id="FM158v9gvh1nh87frf266igaenmaFM"><div class="nodecontent">6.標準等</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6ihkrrikc7q713lhiu4dhv9kniFM"><div class="nodecontent">6.1標準ソフトウェア</div></li>
+	<li class="basic" id="FM0ml7as8jnu9cclo9m64fv9uieaFM"><div class="nodecontent">6.2ソフトウェアのアップデート方法</div></li>
+	<li class="basic" id="FM7qb6dok7jf335vlkv6lu46353eFM"><div class="nodecontent">6.3ウイルス対策ソフトウェアの定義ファイルの更新方法</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM084ok3p2i32cpg107pevgtq2cmFM"><div class="nodecontent">ＩＴ基盤運用管理（情報資産を扱うサーバ・ネットワーク等のＩＴインフラ）</div>
+		<ul class="subexp">
+	<li class="col" id="FM21agig3738g0qs9nbtrktl1rnsFM"><div class="nodecontent">1.管理体制</div>
+		<ul class="subexp">
+	<li class="col" id="FM2j8nm6bjck1ks5fm36f3ebd7uiFM"><div class="nodecontent">1.1 ＩＴ基盤の情報セキュリティ対策</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0bjcus8oic60u1qia4hkgohk9bFM"><div class="nodecontent">1.1.1サーバー機器の情報セキュリティ要件</div></li>
+	<li class="basic" id="FM08sfve44i86n0a00pphr2j6o5pFM"><div class="nodecontent">1.1.2サーバー機器に導入するソフトウェア</div></li>
+	<li class="basic" id="FM5hn0dvfr11hl4a0ih5hphv811tFM"><div class="nodecontent">1.1.3ネットワーク機器の情報セキュリティ要件</div></li></ul></li></ul></li>
+	<li class="basic" id="FM38i8180trc7iims0ir2csrbdj2FM"><div class="nodecontent">2.ＩＴ基盤の運用</div></li>
+	<li class="basic" id="FM7vlk2aq6ko2fenid5ikon103dvFM"><div class="nodecontent">3.クラウドサービスの導入</div></li>
+	<li class="basic" id="FM3aq1hk3fiamlpije19b8aqhhnkFM"><div class="nodecontent">4.脅威や攻撃に関する情報の収集</div></li>
+	<li class="basic" id="FM5mph7n5c8dn2rem559t0pm7p1dFM"><div class="nodecontent">5.廃棄・返却・譲渡</div></li>
+	<li class="col" id="FM1p0r0lfjblj8tops9ltjv4jntbFM"><div class="nodecontent">6.ＩＴ基盤標準</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0bc8u0tm991ttcl920f8jgt5tuFM"><div class="nodecontent">6.1サーバー機器情報セキュリティ要件</div></li>
+	<li class="basic" id="FM5kbdg1ebjbj3b2heugifdnrstuFM"><div class="nodecontent">6.2ＩＴ基盤標準ソフトウェア</div></li>
+	<li class="basic" id="FM1667h5h784o73051kjl926e4o9FM"><div class="nodecontent">6.3標準ネットワーク機器</div></li>
+	<li class="basic" id="FM7db6evh3u3n9ie01qso5ar11rmFM"><div class="nodecontent">6.4ネットワーク機器情報セキュリティ要件</div></li>
+	<li class="col" id="FM54nn35urmv12d0tkm4mv3qdgcrFM"><div class="nodecontent">6.5クラウドサービス情報セキュリティ対策評価基準</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5bblsbkh7jbpp6n9sp89fcphr8FM"><div class="nodecontent">＜適合性評価制度の種類＞</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM0mcrghl83d8dvo3u5n4poa7d54FM"><div class="nodecontent">システム開発及び保守（当社が独自に開発及び保守を行う情報システム）</div>
+		<ul class="subexp">
+	<li class="col" id="FM77r6ovng4qhrqdd33i1ujjvdthFM"><div class="nodecontent">1.情報システムの開発</div>
+		<ul class="subexp">
+	<li class="basic" id="FM409oca7r5cpklo3rbltk2pv1e4FM"><div class="nodecontent">1.1新規システム開発・改修</div></li>
+	<li class="basic" id="FM2id8dg47r74c5vup7g4gk0vb9aFM"><div class="nodecontent">1.2脆弱性への対処</div></li>
+	<li class="basic" id="FM6q3a035radmr4kfa4pvb7i4befFM"><div class="nodecontent">1.3情報システムの開発環境</div></li>
+	<li class="basic" id="FM6emk4f7842ap11mvb30iefn38oFM"><div class="nodecontent">1.4情報システムの保守</div></li>
+	<li class="basic" id="FM4jf7k3b8tc0dhq1satqkduoqlnFM"><div class="nodecontent">1.5情報システムの変更</div></li></ul></li></ul></li>
+	<li class="col" id="FM7h405768sljnfj1ufee41bctk4FM"><div class="nodecontent">外部委託管理（情報資産を取り扱う業務の委託）</div>
+		<ul class="subexp">
+	<li class="col" id="FM09fpvltsqoi2amv0h65eteh3h1FM"><div class="nodecontent">1.委託先の評価（クラウドサービスの利用を除く）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM45a1dntbqkuufpomnlf8ei9i3mFM"><div class="nodecontent">1.1委託先評価基準</div></li>
+	<li class="basic" id="FM0hpeav291fo3qiisku420k7d92FM"><div class="nodecontent">1.2委託先の選定</div></li>
+	<li class="basic" id="FM0bfinktrt514o8olgvkbqr9hsoFM"><div class="nodecontent">1.3委託契約の締結</div></li>
+	<li class="basic" id="FM3mhn6omoo0i165fte54n581hs1FM"><div class="nodecontent">1.4委託先の評価</div></li>
+	<li class="basic" id="FM1ji12ktbqcme88dv7m9dacahalFM"><div class="nodecontent">1.5再委託</div></li></ul></li></ul></li>
+	<li class="col" id="FM3i8ov2og6bo4lher49rnoqll37FM"><div class="nodecontent">情報セキュリティインシデント対応ならびに事業継続管理（情報セキュリティ事故対応及び事業継続管理）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3545n6mp1cue6e0b2h5h519v3cFM"><div class="nodecontent">事象が発生した場合に、混乱しないように事前に対応策を明確にしておくことが肝要</div></li>
+	<li class="col" id="FM1r5rmpl8go8tg4cnvvg6l4f5gnFM"><div class="nodecontent">1.対応体制</div>
+		<ul class="subexp">
+	<li class="basic" id="FM38mq5n023e9poak5ceqligg6gsFM"><div class="nodecontent">最高責任者、対応責任者、一次対応者を明確にする</div></li></ul></li>
+	<li class="col" id="FM50ig7r32021l01lheuknv5sc37FM"><div class="nodecontent">2.情報セキュリティインシデントの影響範囲と対応者</div>
+		<ul class="subexp">
+	<li class="basic" id="FM230set7hv8dbtoit617j3vv1ujFM"><div class="nodecontent">想定する影響範囲を事故レベル（0～3）で分類し、それぞれの対応者を明確にする</div></li></ul></li>
+	<li class="col" id="FM1f38aa63ipv3bu35f3s9vtkc8vFM"><div class="nodecontent">3.インシデントの連絡及び報告</div>
+		<ul class="subexp">
+	<li class="basic" id="FM27cgk1jnk7tp6v1l533aanbo4sFM"><div class="nodecontent">レベル1以上のインシデントが発生した場合、発見者が速やかに指示を仰ぐべき対応者を明確にする</div></li></ul></li>
+	<li class="col" id="FM1bccmnq8cbel4uojkccprvtl93FM"><div class="nodecontent">4.対応手順</div>
+		<ul class="subexp">
+	<li class="col" id="FM38s6j8uhe8ac06j2ms6gocfth7FM"><div class="nodecontent">基本【中山】</div>
+		<ul class="subexp">
+	<li class="basic" id="FM00621d1oou9ad7j0rsp0q1u814FM"><div class="nodecontent">事象の検知、報告受付(Detect)</div></li>
+	<li class="basic" id="FM52t6b3jl0u0t05def1314d8otpFM"><div class="nodecontent">事実確認、対応の判断 被害の局所化(拡大防止)(Triage)</div></li>
+	<li class="basic" id="FM72m56sr270d6059tc93ir01b91FM"><div class="nodecontent">緊急連絡</div></li>
+	<li class="basic" id="FM03j1a2dtob997tea5e1e0jl2q0FM"><div class="nodecontent">原状保全</div></li>
+	<li class="basic" id="FM20afh29v83ghnlpc53gkpqeirnFM"><div class="nodecontent">原因調査</div></li>
+	<li class="basic" id="FM24plfl5muuivheq8ef01cuhoeiFM"><div class="nodecontent">早期復旧・事業継続 (Respond)</div></li>
+	<li class="basic" id="FM5gfj48nd7evppasqtibs21gkigFM"><div class="nodecontent">恒久的対策（再発防止策）</div></li>
+	<li class="basic" id="FM4ohv5m84eqf7hl8ghgql4tbbc0FM"><div class="nodecontent">通常運用</div></li></ul></li>
+	<li class="col" id="FM06srrioni4r69qjnqulf161th5FM"><div class="nodecontent">4.1漏えい・流出発生時の対応</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0ca95h12kbl973br09dt5kc45iFM"><div class="nodecontent">事象：社外秘又は極秘情報資産の盗難、流出、紛失</div></li>
+	<li class="col" id="FM3mrhu9uqo60ct0k4c4q46citbqFM"><div class="nodecontent">事故レベル3【中分類付け】【中山】</div>
+		<ul class="subexp">
+	<li class="col" id="FM0vm8ovjlpr757e9fn0u1q1jdlnFM"><div class="nodecontent">事象の検知、報告受付(Detect)</div>
+		<ul class="subexp">
+	<li class="basic" id="FM103da5ebsto7kvkqjnedclt793FM"><div class="nodecontent">①発見者は即座にインシデント対応責任者及び代表取締役社長に報告する。</div></li></ul></li>
+	<li class="col" id="FM4iv2b41u22ppbknjmgracunlfvFM"><div class="nodecontent">事実確認、対応の判断 被害の局所化(拡大防止)(Triage)</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7rocfn13am1h34leaorqljj14pFM"><div class="nodecontent">②インシデント対応責任者は原因を特定するとともに、二次被害が想定される場合には防止策を実行する。</div></li>
+	<li class="basic" id="FM2sf75023o6u0sai9hm1pr0l2vqFM"><div class="nodecontent">③インシデント対応責任は被害者/本人対応を準備する。</div></li>
+	<li class="basic" id="FM71nudle2qlk2v98guh3sl5b67cFM"><div class="nodecontent">④インシデント対応責任は問合せ対応を準備する。</div></li></ul></li>
+	<li class="col" id="FM6gtf81ktuebn3jvjvf98kl087gFM"><div class="nodecontent">緊急連絡</div>
+		<ul class="subexp">
+	<li class="basic" id="FM55irc3vb2qt7a32g0kc263rbi0FM"><div class="nodecontent">⑤インシデント対応責任は影響範囲・被害の大きさによっては総務部に報道発表の準備を申請する。</div></li>
+	<li class="basic" id="FM4pukvm6cvolmpq54p940s9s4ftFM"><div class="nodecontent">⑥インシデント対応責任者はサイバー攻撃等の不正アクセスによる被害の場合は都道府県警察本部のサイバー犯罪相談窓口に届け出る。</div></li>
+	<li class="basic" id="FM1pk17ildk4tncp1q2cik3aci5oFM"><div class="nodecontent">⑦インシデント対応責任者は個人情報の漏えいの場合には監督官庁に届け出る。</div></li>
+	<li class="basic" id="FM67njaku4sl8lhidubltuqq62teFM"><div class="nodecontent">代表取締役は社内及び影響範囲の全ての組織・人に対応結果及び対策を公表する。</div></li></ul></li>
+	<li class="basic" id="FM10s157phahseabtr8d4n1nd4kgFM"><div class="nodecontent">原状保全</div></li>
+	<li class="basic" id="FM4va7nkbali4ohv88af0cpantboFM"><div class="nodecontent">原因調査</div></li>
+	<li class="basic" id="FM1haqjs4mukcasbqintfi2l2d9tFM"><div class="nodecontent">早期復旧・事業継続 (Respond)</div></li>
+	<li class="basic" id="FM06p36uqt0012m7jdutq0q9v2olFM"><div class="nodecontent">恒久的対策（再発防止策）</div></li>
+	<li class="basic" id="FM3vris1jc8ddlfdm9uuftt1bhgvFM"><div class="nodecontent">通常運用</div></li></ul></li>
+	<li class="col" id="FM5kqp76etj0fp4mo0gb33bra49tFM"><div class="nodecontent">事故レベル3【基本手順】</div>
+		<ul class="subexp">
+	<li class="basic" id="FM04f416o7vldrje68mv4ufhcsp7FM"><div class="nodecontent">①発見者は即座にインシデント対応責任者及び代表取締役社長に報告する。</div></li>
+	<li class="basic" id="FM7eh67dehrr3hlgdmt5la64cqckFM"><div class="nodecontent">②インシデント対応責任者は原因を特定するとともに、二次被害が想定される場合には防止策を実行する。</div></li>
+	<li class="basic" id="FM3cfagr7i01p55hbimgc216udgsFM"><div class="nodecontent">③インシデント対応責任は被害者/本人対応を準備する。</div></li>
+	<li class="basic" id="FM1dliqr6jovhgclii8muchaflq5FM"><div class="nodecontent">④インシデント対応責任は問合せ対応を準備する。</div></li>
+	<li class="basic" id="FM4406pf2gjlulg31vrb455ocicmFM"><div class="nodecontent">⑤インシデント対応責任は影響範囲・被害の大きさによっては総務部に報道発表の準備を申請する。</div></li>
+	<li class="basic" id="FM52v3n37nfsj4u6i3tfe7hj803fFM"><div class="nodecontent">⑥インシデント対応責任者はサイバー攻撃等の不正アクセスによる被害の場合は都道府県警察本部のサイバー犯罪相談窓口に届け出る。</div></li>
+	<li class="basic" id="FM08oqal37k28pvd2v1ehnburrc1FM"><div class="nodecontent">⑦インシデント対応責任者は個人情報の漏えいの場合には監督官庁に届け出る。</div></li>
+	<li class="basic" id="FM1m4ap9vovjafc0t441c9fjv7rtFM"><div class="nodecontent">代表取締役は社内及び影響範囲の全ての組織・人に対応結果及び対策を公表する。</div></li></ul></li>
+	<li class="col" id="FM58nqjd3k3281sqklqt5m38n94uFM"><div class="nodecontent">事故レベル2</div>
+		<ul class="subexp">
+	<li class="basic" id="FM02iovpstn4f78755dpgnkopt7gFM"><div class="nodecontent">①発見者は発見次第、システム管理者に報告する。</div></li>
+	<li class="basic" id="FM49hee7ccdder903be6teve6qp4FM"><div class="nodecontent">②システム管理者は漏えい先を調査し、インシデント対応責任者に報告する。</div></li>
+	<li class="basic" id="FM6l1nh10k8f1379eppr4gceui8nFM"><div class="nodecontent">③システム管理者は社内関係者に周知する。</div></li></ul></li>
+	<li class="col" id="FM64m12crupvhhhit8cqd5k7diqgFM"><div class="nodecontent">事故レベル１</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5iubfpmk86fktcucjuj13ue1o9FM"><div class="nodecontent">※情報漏えい・流出は全て事故レベル2以上</div></li></ul></li></ul></li>
+	<li class="col" id="FM76k0bg9k5o2vci3bnl7toimfk2FM"><div class="nodecontent">4.2改ざん・消失・破壊・サービス停止発生時の対応</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2eht3fduhcnlb45fmst0a5m2gvFM"><div class="nodecontent">情報資産の意図しない改ざん、消失、破壊&#13;<br />情報資産が必要なときに利用できない</div></li>
+	<li class="col" id="FM3fitqcqd3tdotdigfm215svj88FM"><div class="nodecontent">事故レベル3【中分類付け】【中山】</div>
+		<ul class="subexp">
+	<li class="col" id="FM4m2bsj7s68mm6mmsmmlni5g9r6FM"><div class="nodecontent">事象の検知、報告受付(Detect)</div>
+		<ul class="subexp">
+	<li class="basic" id="FM17camo0vt2452pnbvqidfeo68uFM"><div class="nodecontent">手順の確認</div></li>
+	<li class="basic" id="FM3s8597cas9tktggoecrj3ec0beFM"><div class="nodecontent">作業記録の作成</div></li>
+	<li class="basic" id="FM6lnj02q59l26cnat3o8rm04gp6FM"><div class="nodecontent">①発見者は即座にインシデント対応責任者及び代表取締役社長に報告する。</div></li></ul></li>
+	<li class="col" id="FM25cvamdetf47p6avohelfqlkm9FM"><div class="nodecontent">事実確認、対応の判断 被害の局所化(拡大防止)(Triage)</div>
+		<ul class="subexp">
+	<li class="col" id="FM00rk747kn0niu5fdvl9eq6ahsfFM"><div class="nodecontent">②システム管理者は原因を特定し、応急処置を実行する。</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6ipcoadfo58gc5jfi6u73a4a9aFM"><div class="nodecontent">影響範囲の特定</div></li>
+	<li class="basic" id="FM3i13mfjq4o8kac8t0d255tfschFM"><div class="nodecontent">ネットワーク接続やシステムの遮断もしくは停止</div></li></ul></li></ul></li>
+	<li class="col" id="FM2bqbdk5p2e721st4j4k8u5g2u3FM"><div class="nodecontent">緊急連絡</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1jfkpc4bto3ctc62hk20di4q2nFM"><div class="nodecontent">③インシデント対応責任者は社内に周知するとともに総務部情報システム担当に連絡する。</div></li></ul></li>
+	<li class="col" id="FM6df65t1prua30oe9ccf9k62r5kFM"><div class="nodecontent">原状保全</div>
+		<ul class="subexp">
+	<li class="basic" id="FM05bk7b2coes1r0r8gg0a5lc7u2FM"><div class="nodecontent">各種ログの保全</div></li>
+	<li class="col" id="FM6uo4uo5q4r6eeq46drrnaicbahFM"><div class="nodecontent">スナップショットの保存</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4dmllkuhs87v2mmgt990ms9u19FM"><div class="nodecontent">場合によっては、ストレージ装置全体</div></li></ul></li></ul></li>
+	<li class="col" id="FM397e2nd19e0v3peln61nt2vo3iFM"><div class="nodecontent">原因調査</div>
+		<ul class="subexp">
+	<li class="col" id="FM7mhlmfpan21ki2507avsea6c3hFM"><div class="nodecontent">⑦システム管理者は原因対策を実施する。</div>
+		<ul class="subexp">
+	<li class="basic" id="FM16lktrjmt1bavmsqbkf99knduoFM"><div class="nodecontent">要因の特定</div></li></ul></li></ul></li>
+	<li class="col" id="FM5anfhcb26man6lpun0vc5tgolhFM"><div class="nodecontent">早期復旧・事業継続 (Respond)</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7150184tlgi10r0u046pd6b7o9FM"><div class="nodecontent">④電子データの場合はシステム管理者がバックアップによる復旧を実行する。</div></li>
+	<li class="basic" id="FM2dj56q7ckee9fspqtt1jaq4hgvFM"><div class="nodecontent">⑤機器の場合はシステム管理者が修理、復旧、交換等の手続きを行う。</div></li>
+	<li class="basic" id="FM595rvv2rfv8qq5s524krgb9ijeFM"><div class="nodecontent">⑥書類・フィルム原本の場合は情報セキュリティ部門責任者が可能な範囲で修復する。</div></li></ul></li>
+	<li class="col" id="FM7qohl8lkv0e54shtlvpkrgeleeFM"><div class="nodecontent">恒久的対策（再発防止策）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7o97riq7vooan05a5nrjl6c74eFM"><div class="nodecontent">再発防止策の実施</div></li>
+	<li class="basic" id="FM5a9rapj5fmi7uujf0cdd0krb20FM"><div class="nodecontent">監視体制の強化</div></li>
+	<li class="basic" id="FM060ulcgn1smtfrrogldifvk6eeFM"><div class="nodecontent">作業結果の報告</div></li>
+	<li class="basic" id="FM04d6atarkcootuk8uepifa4mupFM"><div class="nodecontent">作業の評価、ポリシー・運用体制・運用手順の見直し</div></li></ul></li>
+	<li class="basic" id="FM2qeqj5bcjtf2astl39mg6b88f8FM"><div class="nodecontent">通常運用</div></li>
+	<li class="basic" id="FM0t51gpcb8tc2k1sdf07dktlck1FM"><div class="nodecontent">代表取締役は社内及び影響範囲の全ての組織・人に対応結果及び対策を公表する。</div></li></ul></li>
+	<li class="col" id="FM261k1c9nhd2tlb1ldqfiqhfiqiFM"><div class="nodecontent">事故レベル3【基本手順】</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7a1ikv2f65r86ipknrjnqbd4u3FM"><div class="nodecontent">①発見者は即座にインシデント対応責任者及び代表取締役社長に報告する。</div></li>
+	<li class="basic" id="FM07audc4t0on3uh2jceqo5b3m22FM"><div class="nodecontent">②システム管理者は原因を特定し、応急処置を実行する。</div></li>
+	<li class="basic" id="FM2ji2fjqddiram8is310dml31l3FM"><div class="nodecontent">③インシデント対応責任者は社内に周知するとともに総務部情報システム担当に連絡する。</div></li>
+	<li class="basic" id="FM3f3rn8jmss053bjdqn8jjudn2rFM"><div class="nodecontent">④電子データの場合はシステム管理者がバックアップによる復旧を実行する。</div></li>
+	<li class="basic" id="FM2sgekjbjsa3ar5juegrad3oa34FM"><div class="nodecontent">⑤機器の場合はシステム管理者が修理、復旧、交換等の手続きを行う。</div></li>
+	<li class="basic" id="FM1efhlugb51nhgoe1pip12hv1tvFM"><div class="nodecontent">⑥書類・フィルム原本の場合は情報セキュリティ部門責任者が可能な範囲で修復する。</div></li>
+	<li class="basic" id="FM7uqqhb99m8mb9thu55ln274jovFM"><div class="nodecontent">⑦システム管理者は原因対策を実施する。</div></li>
+	<li class="basic" id="FM146gqu59t8bu5r0rk27nepmnvfFM"><div class="nodecontent">代表取締役は社内及び影響範囲の全ての組織・人に対応結果及び対策を公表する。</div></li></ul></li>
+	<li class="col" id="FM564rfslelgoeot6r3p3csk4tl7FM"><div class="nodecontent">事故レベル2</div>
+		<ul class="subexp">
+	<li class="basic" id="FM7acu8qgb6khtqjn5io32nqtdfnFM"><div class="nodecontent">①発見者は発見次第、システム管理者に報告する。</div></li>
+	<li class="basic" id="FM5j2b0mts6r6mc2notu4744i22dFM"><div class="nodecontent">②システム管理者は原因を特定し、応急処置を実行する。</div></li>
+	<li class="basic" id="FM2a3668pgrii7ko891f6dvvsro1FM"><div class="nodecontent">③インシデント対応責任者は社内に周知するとともに総務部情報システム担当に連絡する。</div></li>
+	<li class="basic" id="FM7rdbpdb42fqc5ldq3mql48b8gsFM"><div class="nodecontent">④電子データの場合はシステム管理者がバックアップによる復旧を実行する。</div></li>
+	<li class="basic" id="FM63fhrp25121a0bj4u6r19tns6uFM"><div class="nodecontent">⑤機器の場合はシステム管理者が修理、復旧、交換等の手続きを行う。</div></li>
+	<li class="basic" id="FM26563nph957cptthagjo8ml67rFM"><div class="nodecontent">⑥書類・フィルム原本の場合は情報セキュリティ部門責任者が可能な範囲で修復する。</div></li>
+	<li class="basic" id="FM063gq6vs3umor60m0kenra505sFM"><div class="nodecontent">⑦システム管理者は原因対策を実施する。</div></li></ul></li>
+	<li class="col" id="FM6i7eans866e45dv46lqe0h6k50FM"><div class="nodecontent">事故レベル1</div>
+		<ul class="subexp">
+	<li class="basic" id="FM3rp1l2fhj5umbsuls0vlsjbs7oFM"><div class="nodecontent">①発見者は発見次第、システム管理者に報告する。</div></li>
+	<li class="basic" id="FM6d3s5j05le1t38r23maps7uhu4FM"><div class="nodecontent">②システム管理者は原因を特定し、応急処置を実行する。</div></li>
+	<li class="basic" id="FM5tbkhcobm398hr7bna5mm7ipafFM"><div class="nodecontent">③電子データの場合はシステム管理者がバックアップによる復旧もしくは再作成・入手を実行する。</div></li>
+	<li class="basic" id="FM6u9f7sqve9a0iqph4obvedll0lFM"><div class="nodecontent">④機器の場合はシステム管理者が修理、復旧、交換等の手続きを行う。</div></li>
+	<li class="basic" id="FM0qahdrionk7ek8lhpj5mkv30v7FM"><div class="nodecontent">⑤書類・フィルム等の原本の場合は情報セキュリティ部門責任者が可能な範囲で修復する</div></li>
+	<li class="basic" id="FM4td9pbk4qrgpc1cd7o9gbdtsqvFM"><div class="nodecontent">⑥システム管理者は原因対策を実施する</div></li></ul></li>
+	<li class="col" id="FM0k4edktg5n4t7ihga01555uoslFM"><div class="nodecontent">事故レベル0</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0ncnvfftrklm7jjqvrji9jjcgmFM"><div class="nodecontent">発見者は発見次第、発生可能性のあるインシデントと想定される被害をシステム管理者に報告する。</div></li></ul></li></ul></li>
+	<li class="col" id="FM72ee8igiddvcejc9dmnun7g1kfFM"><div class="nodecontent">4.3ウイルス感染時の初期対応</div>
+		<ul class="subexp">
+	<li class="basic" id="FM2b7mm7ebg15gtpdgmll92h43fnFM"><div class="nodecontent">悪意のあるソフトウェアに感染</div></li>
+	<li class="basic" id="FM7g4d0vc9b7t7gatrn26msaogp1FM"><div class="nodecontent">従業員は、業務に利用しているパソコン、サーバー又はスマートフォン、タブレット（以下「コンピュータ」といいます。）がウイルスに感染した場合には、以下を実行する。</div></li>
+	<li class="basic" id="FM5fn256e7qquq346hc7v8g8skdhFM"><div class="nodecontent">①ネットワークからコンピュータを切断する。</div></li>
+	<li class="basic" id="FM2q2tbkg78afm0m3o4liu8fekbqFM"><div class="nodecontent">②システム管理者に連絡する。</div></li>
+	<li class="basic" id="FM5br9ftq5rjjuf6lrp51qen0kl5FM"><div class="nodecontent">③ウイルス対策ソフトの定義ファイルを最新版に更新する。</div></li>
+	<li class="basic" id="FM3lrec2883ums072aun24gceqrkFM"><div class="nodecontent">④ウイルス対策ソフトを実行しウイルス名を確認する。</div></li>
+	<li class="basic" id="FM0s5t7hrhkg2nbshf7opotce14gFM"><div class="nodecontent">⑤ウイルス対策ソフトで駆除可能な場合は駆除する。</div></li>
+	<li class="basic" id="FM2736arlfhe1pttepe0oebuueb7FM"><div class="nodecontent">⑥駆除後再度ウイルス対策ソフトでスキャンし、駆除を確認する。</div></li>
+	<li class="basic" id="FM6jsg745gch1loiu1q9hrrqaldaFM"><div class="nodecontent">⑦システム管理者に報告する。</div></li>
+	<li class="col" id="FM0ar3vl3c2rebbttk7c1jlavu3aFM"><div class="nodecontent">以下の場合など従業員自身で対応できないと判断される場合はシステム管理者に問い合わせる。</div>
+		<ul class="subexp">
+	<li class="basic" id="FM0kn2qjnvm6bp2g9d80gfdf6ih1FM"><div class="nodecontent">ウイルス対策ソフトで駆除できない。</div></li>
+	<li class="basic" id="FM5dhti6sjnpo42adrpr2p7cd214FM"><div class="nodecontent">システムファイルが破壊・改ざんされている。</div></li>
+	<li class="basic" id="FM0olllv2misq79c3drfe9m4fgfvFM"><div class="nodecontent">ファイルが改ざん・暗号化・削除されている。</div></li></ul></li></ul></li>
+	<li class="col" id="FM2i1cc2u5p18jpq4rf0hr099nh5FM"><div class="nodecontent">4.5届け出及び相談</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4bja3t25ih479n9mmisctt6m4qFM"><div class="nodecontent">システム管理者は、インシデント対応後に以下の機関への届け出又は相談を検討する。</div></li>
+	<li class="col" id="FM6h3ea2ab8i2f51klfl3hulb09aFM"><div class="nodecontent">＜届け出・相談先＞</div>
+		<ul class="subexp">
+	<li class="col" id="FM0egjhk4lg072pjvo3lqtb64oqeFM"><div class="nodecontent">独立行政法人 情報処理推進機構セキュリティセンター(IPA/ISEC)</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1k3ajjflm1ikpal58jtq55u37sFM"><div class="nodecontent">ウイルスの届け出先&#13;<br />https://www.ipa.go.jp/security/outline/todokede-j.html&#13;<br />TEL: 03-5978-7518&#13;<br />E-mail：virus@ipa.go.jp</div></li>
+	<li class="basic" id="FM5mohojj89pro4ddskaffa69pfcFM"><div class="nodecontent">不正アクセスに関する届出&#13;<br />E-Mail：crack@ipa.go.jp &#13;<br />FAX：03-5978-7518</div></li>
+	<li class="basic" id="FM1p78gqdv7rdbrc3ml154mnnp4mFM"><div class="nodecontent">情報セキュリティ安心相談窓口&#13;<br />https://www.ipa.go.jp/security/anshin/index.html&#13;<br />TEL:03-5978-7509&#13;<br />E-mail：anshin@ipa.go.jp</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM4b15eqep79d1j08o8ho96gpv3qFM"><div class="nodecontent">5.情報セキュリティインシデントによる事業中断と事業継続管理</div>
+		<ul class="subexp">
+	<li class="basic" id="FM6kljkvnbgjd2b27cmoodokd4prFM"><div class="nodecontent">代表取締役は、情報セキュリティインシデントの影響により当社事業が中断した場合に備え、以下を定める。</div></li>
+	<li class="col" id="FM0a3guq6rqh4atidbb51hfngeg9FM"><div class="nodecontent">5.1想定される情報セキュリティインシデント</div>
+		<ul class="subexp">
+	<li class="basic" id="FM5aiainp793hnpmg0llamjqiujlFM"><div class="nodecontent">以下のインシデントによる事業の中断を想定する。</div></li>
+	<li class="basic" id="FM54fgle6tmhe72qtqqkb8lf7jq3FM"><div class="nodecontent">情報セキュリティインシデント：大型地震の発生に伴う設備の倒壊、回線の途絶、停電等にによる○○システム停止</div></li>
+	<li class="basic" id="FM4mnpdab86u22ennkai5fg5nkm3FM"><div class="nodecontent">想定理由：当社の事業は、商品の販売から請求回収までの業務を○○システムに依存しているため、停止した場合は事業の継続が困難になり多大な損失が発生</div></li></ul></li>
+	<li class="col" id="FM1tpmt9n49v0jta2sedhfajr285FM"><div class="nodecontent">5.2復旧責任者及び関連連絡先</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1792s78c7gsnc1mmraltpne8buFM"><div class="nodecontent">被害対象毎に、復旧責任者、関係者連絡先をリスト化しておく</div></li></ul></li>
+	<li class="col" id="FM5d1coejf6geqkhlks69k3urvl7FM"><div class="nodecontent">5.3事業継続計画</div>
+		<ul class="subexp">
+	<li class="basic" id="FM10trn7nrfcbc35qtv9mtuht9m1FM"><div class="nodecontent">インシデント対応責任者は、想定する情報セキュリティインシデントが発生し、事業が中断した際の復旧責任者の役割認識及び関係者連絡先について、有効に機能するか検証する。</div></li>
+	<li class="basic" id="FM22jhiagm4h8oecac9r79ndb0g3FM"><div class="nodecontent">復旧責任者は、被害対象に応じて復旧から事業再開までの計画を立案する。</div></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FM7o911io5ujnm62gkf3vhe2undhFM"><div class="nodecontent">社内体制図（当社の情報セキュリティ管理）</div>
+		<ul class="subexp">
+	<li class="basic" id="FM1s4gv0pa3d0r9m9mqbictoh7ghFM"><div class="nodecontent">1.情報セキュリティのための組織</div></li></ul></li>
+	<li class="col" id="FM2opn1n058r20hber2g60pgj70mFM"><div class="nodecontent">委託契約書機密保持条項サンプル（外部委託契約の締結時）</div>
+		<ul class="subexp">
+	<li class="col" id="FM2g6iokmlea3kbkse7bmiidud7dFM"><div class="nodecontent">1.委託契約時の機密保持契約条項</div>
+		<ul class="subexp">
+	<li class="basic" id="FM4vjr66dsina3c1nvioo9l60rjsFM"><div class="nodecontent">＜機密保持条項サンプル＞</div></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div></body></html>
