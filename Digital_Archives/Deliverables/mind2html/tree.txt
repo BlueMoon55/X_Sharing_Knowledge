@@ -1,0 +1,186 @@
+フォルダー パスの一覧
+ボリューム シリアル番号は 00000200 024D:063D です
+D:.
+├─Bib01-01図書館司書課程の図書館ガイダンス.html_files
+│  └─icons
+├─Bib03-01-2 図書館情報システム関連 ドキュメント構成.html_files
+│  └─icons
+├─Bib03-01-2 図書館情報システム関連 ドキュメント構成_files
+│  └─images
+├─Bib03-02 図書館情報システムに関連するタスクと必要なスキル.html_files
+│  └─icons
+├─Bib03-03 知識インフラ構築の一翼を担う組織の活動.html_files
+│  └─icons
+├─Bib03-04デジタルトランスフォーメーション時代のMLA業務のタスク.html_files
+│  └─icons
+├─Bib03-05図書館情報システム構築のタスクプロフィール（政府標準ガイドライン準拠）.html_files
+│  └─icons
+├─Bib03-0601 図書館員に必要なITスキル要素.html_files
+│  └─icons
+├─Bib03-0602 図書館業務のタスクプロフィール.html_files
+│  └─icons
+├─Bib03-08システム構築・コンテンツ構築に必要なスキル・知識要素の抜粋.html_files
+│  └─icons
+├─Bib03-12 調達仕様書（案）.html_files
+│  └─icons
+├─Bib04-02タスクディクショナリ （タスク小分類415項目）.html_files
+│  └─icons
+├─Bib04-03スキルディクショナリ(スキル424項目・知識8256項目).html_files
+│  └─icons
+├─Bib04-05スキル概要と情報処理試験（熟達度レベル評価判定）.html_files
+│  └─icons
+├─Bib04-07 共通フレーム2013とユーザのための要件定義ガイド_files
+│  └─images
+├─Bib04-07 共通フレーム2013とユーザのための要件定義ガイド【2018年1月25日】.html_files
+│  └─icons
+├─Bib05-01iCDスキルディクショナリ (スキル424項目・知識8256項目から抜粋).html_files
+│  └─icons
+├─Bib05-02 IT基礎.html_files
+│  └─icons
+├─Bib05-03 離散数学.html_files
+│  └─icons
+├─Bib05-04 応用数学.html_files
+│  └─icons
+├─Bib05-05 情報に関する理論.html_files
+│  └─icons
+├─Bib05-06 通信に関する理論.html_files
+│  └─icons
+├─Bib05-07 コンピュータ基礎.html_files
+│  └─icons
+├─Bib05-13 情報セキュリティマネジメントに要求される知識と技能【シラバス】.html_files
+│  └─icons
+├─Bib06-01電子図書館事業20年を迎えた新たな方向性の模索(要約).html_files
+│  └─icons
+├─Bib06-02電子図書館事業20年を迎えた新たな方向性の模索【本文】.html_files
+│  └─icons
+├─Bib06-03私の記録.html_files
+│  └─icons
+├─Bib06-04 ITパスポート試験シラバス.html_files
+│  └─icons
+├─Bib06-05最低限知っておくべき情報処理技術（ITリテラシー）.html_files
+│  └─icons
+├─Bib06-05最低限知っておくべき情報処理技術（ITリテラシー）?.html_files
+│  └─icons
+├─Bib06-06 政府情報システムの整備及び管理 に関する標準ガイドライン（2014年12月3日 CIO連絡会議決定）.html_files
+│  └─icons
+├─Bib06-07 iコンピテンシ・ディクショナリ （2015年正式公開（IPA））.html_files
+│  └─icons
+├─Bib06-09応用情報技術者試験シラバス.html_files
+│  └─icons
+├─Bib06-10ITストラテジスト試験（レベル４）シラバス.html_files
+│  └─icons
+├─Bib10-02 経営者向け セキュリティ対策のポイント.html_files
+│  └─icons
+├─Bib10-02 経営者向けセキュリティ対策のポイント.html_files
+│  └─icons
+├─Bib10-03【持続的発展のため】組織の発展を目指した戦略的なIT活用とサイバーセキュリティ対策.html_files
+│  └─icons
+├─Bib10-06 AIを活用した知の共有化の進展への期待【要約】.html_files
+│  └─icons
+├─Bib10-0602「未来の図書館を作るとは」（長尾元館長）で示されたこと【全編】.html_files
+│  └─icons
+├─Bib10-07 次世代図書館サービスの実現形でのタスクと必要なスキル・知識【詳細】.html_files
+│  └─icons
+├─Bib10-08「知の共有化」に関連した国等の政策の要約.html_files
+│  └─icons
+├─Bib10-09データサイエンス領域のスキル標準「ITSS+」.html_files
+│  └─icons
+├─Bib10-10 セキュリティ領域のスキル標準「ITSS+」.html_files
+│  └─icons
+├─Bib10-11 アジャイル開発「ITSS+」.html_files
+│  └─icons
+├─Bib20-0401人工知能に関する文献のポイント（引用）.html_files
+│  └─icons
+├─Bib20-0402-2 【図解】コレ１枚でわかる最新ITトレンド_files
+│  └─images
+├─Bib20-04人工知能に関する基礎知識（まとめ）.html_files
+│  └─icons
+├─Bib21-01 Society 5.0.html_files
+│  └─icons
+├─DAX10-20 Society5.0に向けた人材育成.html_files
+│  └─icons
+├─DAX20-0402-1 ITロードマップ2018年版【2018年3月NRI】.html_files
+│  └─icons
+├─DAX20-0402-2-0 ITの最新トレンド.html_files
+│  └─icons
+├─DAX20-0402-2-1 IoT.html_files
+│  └─icons
+├─DAX20-0402-2-2 人工知能とロボット.html_files
+│  └─icons
+├─DAX20-0402-2-3 クラウドコンピューティング.html_files
+│  └─icons
+├─DAX20-0402-2-4 モバイルとウェアラブル.html_files
+│  └─icons
+├─DAX20-0402-2-5 ITインフラストラクチャと仮想化.html_files
+│  └─icons
+├─DAX20-0402-2-6 開発と運用.html_files
+│  └─icons
+├─DAX20-0402-2-9 巻末　最新トレンドを理解するためのITの基礎知識.html_files
+│  └─icons
+├─DAX20-0402-3 IT人材白書2018.html_files
+│  └─icons
+├─DAX20-0402-3 IT人材白書【2018年4月IPA】.html_files
+│  └─icons
+├─DAX20-0402-3-1 Society 5.0.html_files
+│  └─icons
+├─DAX20-0402-3-3 プログラミング＆リベラルアーツ【2018年5月12日週刊ダイヤモンド】.html_files
+│  └─icons
+├─DAX20-0402-3-4 サイバー経済を生き残る法【2018年4月30日PRESIDENT大前研一】.html_files
+│  └─icons
+├─DAX20-04人工知能に関する基礎知識（まとめ）.html_files
+│  └─icons
+├─DAX21_デジタルトランスフォーメーション（DX）.html_files
+│  └─icons
+├─DAX25-01【書籍】絵でわかる人工知能【2017年三宅陽一郎】.html_files
+│  └─icons
+├─DAX25-02【書籍】人工知能「超入門」ディープラーニングの可能性と脅威（Impress QuickBooks).html_files
+│  └─icons
+├─DAX25-03【書籍】よくわかるディープラーニングの仕組み【谷田部卓】.html_files
+│  └─icons
+├─DAX25-04【書籍】ビジネスで使う機械学習【谷田部卓】.html_files
+│  └─icons
+├─DAX25-05【書籍】非エンジニア、文系、ビジネスマンのための人工知能入門：数式が苦手なあなたにおすすめ.html_files
+│  └─icons
+├─DAX25-06【書籍】人工知能（AI）活用時代に必要とされる能力とは？ビジネスで差がつく「データサイエンス力」 .html_files
+│  └─icons
+├─DAX25-07【書籍】グーグルに学ぶディープラーニング（日経ビッグデータ）.html_files
+│  └─icons
+├─DAX25-08【書籍】2020年を見据えたグローバル企業のIT戦略 IoT編【2015年11月27日入江宏志】.html_files
+│  └─icons
+├─DAX25-09【文献】平成28年度情報通信白書【総務省】.html_files
+│  └─icons
+├─DAX25-10【記事】人間の仕事を奪う｢AI｣の過去･現在･未来【2017年04月15日東洋経済】.html_files
+│  └─icons
+├─DAX25-11【文献】IT人材白書2017【2017年4月25日IPA】.html_files
+│  └─icons
+├─DAX25-12【文献】第四次産業革命を視野に入れた知財システムの在り方について【2017年4月19日METI】.html_files
+│  └─icons
+├─DAX25-13【文献】科学技術イノベーション総合戦略2017（案）【2017年4月21日】.html_files
+│  └─icons
+├─DAX25-14【文献】新産業ビジョン【2017年5月METI】.html_files
+│  └─icons
+├─DAX25-15【文献】人工知能技術戦略（案）.html_files
+│  └─icons
+├─DAX25-16【文献】知的財産推進計画2017（2017年5月16日内閣官房知的財産戦略本部）.html_files
+│  └─icons
+├─DAX25-17【文献】「デジタルトランスフォーメーション」【2016年9月ベイカレント・コンサエルティング】.html_files
+│  └─icons
+├─DAX25-18【書籍】60分でわかる！ディープラーニング最前線.html_files
+│  └─icons
+├─DAX40-01 図書館情報学研究(図書館システム・オープンデータ) 【ゼミ資料xmind】.html_files
+│  └─icons
+├─DAX40-02 図書館情報学研究(参考情報).html_files
+│  └─icons
+├─DAX41 ゼミ課題想定.html_files
+│  └─icons
+├─DAX41-2 ゼミ課題成果物【例】.html_files
+│  └─icons
+├─DAX42-2019図書館司書課程の図書館ガイダンス.html_files
+│  └─icons
+├─DAX43-01 デジタルアーカイブの過去から未来.html_files
+│  └─icons
+├─DAX45-01「知の共有化」に関連する発表論文及び口頭発表.html_files
+│  └─icons
+├─images
+└─InnovationRoadmap2030.html_files
+    └─icons
