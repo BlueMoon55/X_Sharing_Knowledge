@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map version="0.8.1"><node CREATED="1547172670880" ID="34l36ndfc2f6250fqoc028e3et" MODIFIED="1547172670880" TEXT="DAX25-20-06【書籍】 AI白書2019_編集・執筆関係者名簿"/></map>
